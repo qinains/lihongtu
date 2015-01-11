@@ -1,0 +1,1 @@
+﻿<%@ page language="C#" autoeventwireup="true" inherits="Ajax_CustInfo_setCustInfo, App_Web_impby2jb" enableEventValidation="false" %>

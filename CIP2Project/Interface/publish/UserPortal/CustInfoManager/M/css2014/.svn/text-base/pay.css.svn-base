@@ -1,0 +1,86 @@
+@charset "UTF-8";
+/* CSS Document */
+.wapPage{ width:320px; margin: 0 auto;}
+.wapPage .name{ padding:20px 0 25px 0; border-bottom:1px solid #ccc;}
+.wapPage .name li { height:35px; width:100%; overflow:hidden;}
+.wapPage .name span{ float:left; width:80px; text-align:right;}
+.wapPage .usermain{ padding:20px 0; border-bottom:1px solid #ccc;}
+.wapPage .shop{ padding:20px 0; border-bottom:1px solid #ccc;}
+.wapPage .shop span{ float:left;}
+.wapPage .shop .num{ padding:20px 0 0 0; height:25px;}
+.wapPage .shop .num li{ float:left;}
+.wapPage .price{ padding:20px 0; text-align:right;}
+.wapPage .tijiao{ text-align:right; width:100%;}
+
+
+.wapPage .logo{ height:150px; background:url(../img/logo.png) no-repeat center; }
+.wapPage .text{ padding:20px 0; text-align:center;}
+.wapPage .paybt{ padding:30px 0 0 0;}
+.wapPage .paybt a{ width:100%; height:40px; border:1px solid #c51210; background:-webkit-gradient(linear,0 0,0 100%,color-stop(0,#e67316),color-stop(1,#cf2c0c)); display:block; line-height:40px; text-align:center; font-size: 18px; color:#FFF;}
+.jianju{margin: 0 10px;}
+
+
+
+.wapPage .seach{ padding:20px 0;}
+.wapPage .seach ul{}
+.wapPage .seach input{ height:27px; border-bottom:1px solid #e4e4e4; border-top:1px solid #e4e4e4; border-left:1px solid #e4e4e4; width:250px; padding:3px 8px;}
+.wapPage .seach li{ float:left; height:35px;}
+.wapPage .ad{ padding:10px 0; text-align:center;}
+
+.wapPage .tijiao{ padding:30px 0 0 0;}
+.wapPage .tijiao a{ width:100%; height:40px; border:1px solid #c51210; background:-webkit-gradient(linear,0 0,0 100%,color-stop(0,#e67316),color-stop(1,#cf2c0c)); display:block; line-height:40px; text-align:center; font-size: 18px; color:#FFF;}
+.wapPage .bt_all{ display:block;-webkit-border-top-left-radius: 4px; -webkit-border-top-right-radius: 4px; height:45px; line-height:45px; background: url(../img/arong2.png) no-repeat 280px center #fff; border:1px solid #e0e0e0; text-indent:1em;}
+.wapPage .block { float:left; width:148px; height:148px; position:relative; border:1px solid #e0e0e0; border-top:0; background:url(../img/bg_usercenter.gif) no-repeat #FFF; }
+.wapPage .block1{}
+.wapPage .block2{ background-position:-149px 0;border-left:0; width:149px;}
+.wapPage .block3{ background-position: 0 -149px;}
+.wapPage .block4{ background-position:-149px -149px;border-left:0; width:149px;}
+.wapPage .block11{ background-position:0 -298px;}
+.wapPage .block22{ background-position:-149px -298px;border-left:0; width:149px;}
+.wapPage .block33{ background-position:0 -447px;}
+.wapPage .block44{ background-position:-149px -447px;border-left:0; width:149px;}
+.wapPage .block em{ position:absolute; top:6px; right:8px; width:2em; height:2em; text-align:center; line-height:28px; color:#FFF;}
+.wapPage .bt_pay1{ float:left; width:100%; margin:20px 0 0 0;}
+.wapPage .bt_pay1 a{ width:100%; border:1px solid #e0e0e0; height:40px; text-align:center; line-height:40px; color:#af513c; background:-webkit-gradient(linear,0 0,0 100%,color-stop(0,#fff),color-stop(1,#f1f1f1)); display:block; font-size:16px;}
+
+
+.wapPage .address{border-bottom:1px dashed #ccc; padding:10px 0;}
+.wapPage .address li{ float:left;}
+.wapPage .zt{display: -webkit-box; -webkit-box-orient: horizontal; width:100%;}
+.wapPage .zt a{-webkit-box-flex: 1; -webkit-box-align: center; text-align: center; line-height:30px; background:-webkit-gradient(linear,0 0,0 100%,color-stop(0,#fff),color-stop(1,#eaeaea)); display:block; border-top:1px solid #e2e2e2; border-bottom:1px solid #e2e2e2;}
+.wapPage .zt a:hover{ background:-webkit-gradient(linear,0 0,0 100%,color-stop(0,#dbdbdb),color-stop(1,#fff));}
+.wapPage .bts{display: -webkit-box; -webkit-box-orient: horizontal; width:100%; margin:10px 0 0 0;}
+.wapPage .bts .bt{-webkit-box-flex: 1; -webkit-box-align: center; text-align:center; padding:0 0 0 10px;}
+
+.wapPage .bts .bt a{ display:block; width:78px;}
+.wapPage .bts .bt em{ width:19px; height:19px; position:absolute; top:0; right:0; background: url(../img/bg4.gif) no-repeat; font-size:12px; line-height:19px; color:#FFF;}
+.wapPage .bts .bt .bt1{ height:78px; background:url(../img/bg_usercenter.gif) 0 0; border:1px solid #dfdfdf; -webkit-border-radius: 8px; -moz-box-shadow:-2px -2px 2px #e4e4e4 inset;/* For Firefox3.6+ */-webkit-box-shadow:-2px -2px 2px #e4e4e4 inset; /* For Chrome5+, Safari5+ */box-shadow:-2px -2px 2px #e4e4e4 inset; position:relative;}
+.wapPage .bts .bt .bt2{ height:78px; background:url(../img/bg_usercenter.gif) -78px 0; border:1px solid #dfdfdf; -webkit-border-radius: 8px; -moz-box-shadow:-2px -2px 2px #e4e4e4 inset;/* For Firefox3.6+ */-webkit-box-shadow:-2px -2px 2px #e4e4e4 inset; /* For Chrome5+, Safari5+ */box-shadow:-2px -2px 2px #e4e4e4 inset; position:relative;}
+.wapPage .bts .bt .bt3{ height:78px; background:url(../img/bg_usercenter.gif) -156px 0; border:1px solid #dfdfdf; -webkit-border-radius: 8px; -moz-box-shadow:-2px -2px 2px #e4e4e4 inset;/* For Firefox3.6+ */-webkit-box-shadow:-2px -2px 2px #e4e4e4 inset; /* For Chrome5+, Safari5+ */box-shadow:-2px -2px 2px #e4e4e4 inset; position:relative;}
+.wapPage .bts .bt .bt4{ height:78px; background:url(../img/bg_usercenter.gif) 0 78px; border:1px solid #dfdfdf; -webkit-border-radius: 8px; -moz-box-shadow:-2px -2px 2px #e4e4e4 inset;/* For Firefox3.6+ */-webkit-box-shadow:-2px -2px 2px #e4e4e4 inset; /* For Chrome5+, Safari5+ */box-shadow:-2px -2px 2px #e4e4e4 inset; position:relative;}
+.wapPage .bts .bt .bt5{ height:78px; background:url(../img/bg_usercenter.gif) -78px 78px; border:1px solid #dfdfdf; -webkit-border-radius: 8px; -moz-box-shadow:-2px -2px 2px #e4e4e4 inset;/* For Firefox3.6+ */-webkit-box-shadow:-2px -2px 2px #e4e4e4 inset; /* For Chrome5+, Safari5+ */box-shadow:-2px -2px 2px #e4e4e4 inset; position:relative;}
+.wapPage .bts .bt .bt6{ height:78px; background:url(../img/bg_usercenter.gif) -156px 78px; border:1px solid #dfdfdf; -webkit-border-radius: 8px; -moz-box-shadow:-2px -2px 2px #e4e4e4 inset;/* For Firefox3.6+ */-webkit-box-shadow:-2px -2px 2px #e4e4e4 inset; /* For Chrome5+, Safari5+ */box-shadow:-2px -2px 2px #e4e4e4 inset; position:relative;}
+
+.wapPage .account{ width:100%;}
+.wapPage .account li{ float: left; height:40px; line-height:40px;}
+.wapPage .account .file{ width:8em;}
+.wapPage .account .vale{}
+
+
+
+.BT_address{-webkit-box-flex: 2; margin:0 5px; -webkit-box-align: center; text-align:center; color:#34404c;background:-webkit-gradient(linear,0 0,0 100%,color-stop(0,#d7ecff),color-stop(1,#b2d0ed)); border:1px solid #a1c3e2; height:31px; line-height:31px;}
+.BT_canel{-webkit-box-flex: 1; margin:0 5px; -webkit-box-align: center; text-align:center; color:#666;background:-webkit-gradient(linear,0 0,0 100%,color-stop(0,#f3f3f3),color-stop(1,#dbbdbd)); border:1px solid #d3d3d3; height:31px; line-height:31px;}
+
+
+.titlebg{ border-bottom:1px solid #D5D5D5; background:-webkit-gradient(linear,0 0,0 100%,color-stop(0,#fff),color-stop(1,#f1f1f1));}
+.titlebg .title{ width:300px; margin: 0 auto; height:30px; padding:10px;}
+.titlebg .title ul{display: -webkit-box; -webkit-box-orient: horizontal; width:100%;} 
+.titlebg .title .child_out{ min-width:64px;}
+.titlebg .title .child_text{-webkit-box-flex: 1; -webkit-box-align: center; text-align: center; line-height:30px; font-size:16px;}
+
+
+.us_bg{ width:100%; background:url(../img/bg2.gif) repeat-x;}
+.us_bg .user_center{ width:320px; margin:0 auto; height:35px; line-height:33px; padding:35px 0 0 0; background:url(../img/bg_face.gif) no-repeat 10px bottom ; text-indent:95px; font-weight:bold;}
+
+
+

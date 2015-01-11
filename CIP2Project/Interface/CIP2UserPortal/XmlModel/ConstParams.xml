@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ConstRoot>
+	<ConstUrls>
+		<!--号百门户的登录页面-->
+		<Url ID="BesttoneHomePage">http://www.118114.cn</Url>
+		<!--号百门户的注册页面-->
+		<Url ID="BesttoneLoginPage">http://customer.besttone.com.cn/UserPortal/sso/login.aspx</Url>
+		<!--号百注册页面-->
+		<Url ID="BesttoneRegisterPage">http://customer.besttone.com.cn/UserPortal/signup.aspx</Url>
+		<!--号百通过邮件重置页面-->
+		<Url ID="BesttoneResetPwdByEmail">http://customer.besttone.com.cn/UserPortal/FindPassWord/ResetPwdByEmail.aspx</Url>
+		<!--<Url ID="BesttoneResetPwdByEmail">http://localhost/CIP2UserPortal/FindPassWord/ResetPwdByEmail.aspx</Url>-->
+
+		<!--UDB重定向认证中页面-->
+		<Url ID="UDBMiddleLoginUrl">http://Service.Passport.189.cn/Logon/UDBCommon/M/PassportLogin.aspx</Url>
+		<!--UDB重定向认证小页面-->
+		<Url ID="UDBSmallLoginUrl">http://Service.Passport.189.cn/Logon/UDBCommon/S/PassportLogin.aspx</Url>
+		<!--UDB重定向登出接口地址-->
+		<Url ID="UDBLogoutUrl">http://service.passport.189.cn/logon/UDBCommon/PassportLogout.aspx</Url>
+		<!--UDB重定向令牌验证地址-->
+		<Url ID="UDBTicketCheckUrl">http://service.Passport.189.cn/Logon/UDBCommon/PassportCheck.aspx</Url>
+		<!--北京SOAP地址-->
+		<Url ID="BJSOAPUrl">http://zx.passport.189.cn/UDBAPPInterface/UDBAPPSYS/UDBAppSys.asmx</Url>
+		<!--上海SOAP地址-->
+		<Url ID="SHSOAPUrl">http://sersh.passport.189.cn/UDBAPPInterface/UDBAPPSYS/UDBAppSys.asmx</Url>
+
+		<Url ID="UserWebServiceMethod">POST</Url>
+		<Url ID="UDBSPID">35999998</Url>
+	   <!--综合平台url-->
+		<Url ID="UnifyPlatformLogonUrl">https://open.e.189.cn/api/account/unifyAccountLogin.do</Url>
+		<Url ID="UnifyPlatformCallBackUrl">http://localhost/CIP2UserPortal/SSO/Open189CallBack.aspx</Url> 
+		<Url ID="UnifyPlatformGetUserInfoUrl">http://open.e.189.cn/api/account/getUserInfo.do</Url>
+	</ConstUrls>
+	<ConstParams>
+
+		<!--号百的SPID-->
+		<Parameter ID="BesttoneSPID" type="String">35000000</Parameter>
+		<!--综合平台参数-->
+		<Parameter ID="UnifyPlatformAppId" type="String">118114</Parameter>
+		<Parameter ID="UnifyPlatformAppSecret" type="String">07bHrYkaFYBD4Bxrhdbm9KhnT5jmvFho</Parameter>
+		<Parameter ID="UnifyPlatformVersion" type="String">v1.1</Parameter>
+		<Parameter ID="UnifyPlatformClientType" type="String">10010</Parameter>
+		<Parameter ID="UnifyPlatformAccountType" type="String">01</Parameter>
+		<Parameter ID="UnifyPlatformPageKey" type="String">default</Parameter>
+		<Parameter ID="UnifyPlatformBusinessPage" type="String">35000000</Parameter>
+		<Parameter ID="UnifyPlatformThirdAccount" type="String">no</Parameter>
+		<Parameter ID="UnifyPlatformMustBind" type="String">yes</Parameter>
+		<!--积分SPID-->
+		<Parameter ID="ScoreBesttoneSPID" type="String">35000050</Parameter>
+		<!--通过邮件重置密码的超时时间,单位:小时-->
+		<Parameter ID="ResetPwdExpiredHour" type="Int32">2</Parameter>
+		<!--是否启用数据库记录日志,0:启用，1:不启用-->
+		<Parameter ID="DBLogEnabled" type="String">0</Parameter>
+		<!--不记录数据库日志的接口-->
+		<Parameter ID="UnWriteDBLogInterface" type="String">PhonePosition</Parameter>
+	</ConstParams>
+	<!--发送邮件服务器信息-->
+	<MailSMTPServer>
+		<FormName>号码百事通客服</FormName>
+		<From>service@jf.118114.cn</From>
+		<UserID>service@jf.118114.cn</UserID>
+		<Password>111111</Password>
+		<ServerName>mail.jf.118114.cn</ServerName>
+	</MailSMTPServer>
+	<HttpFilter IsOpen="1">
+		<FilterMethods>post,get</FilterMethods>
+	</HttpFilter>
+</ConstRoot>

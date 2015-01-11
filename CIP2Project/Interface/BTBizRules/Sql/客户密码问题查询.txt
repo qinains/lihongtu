@@ -1,0 +1,29 @@
+create Procedure [dbo].[up_BT_V5_Interface_UserPwdQuestionQuery]
+(
+	@CustID varchar(16),
+
+    @Result int out,
+    @ErrorDescription varchar(256) out
+)
+as
+     if  not exists (select 1 from CustInfo where CustID=@custID )
+    begin
+      set @Result=-39999
+      set @ErrorDescription='用户不存在'
+      return 
+    end
+  
+    select * from dbo.Answer where custID=@CustID
+    if(@@RowCount=0)
+	Begin
+      set @Result=-19999
+      set @ErrorDescription='用户无密码问题'
+      return 
+    end
+	
+    set  @Result=0
+    set @ErrorDescription=''
+
+set ANSI_NULLS Off
+set QUOTED_IDENTIFIER Off
+go

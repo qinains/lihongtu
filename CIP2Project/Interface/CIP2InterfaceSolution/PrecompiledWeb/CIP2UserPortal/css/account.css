@@ -1,0 +1,99 @@
+@charset "utf-8";
+@import url(common.css);
+/*by Giau*/
+.btnA button{width:120px;font-weight:700}
+.btn_OK{width:120px;font-weight:700;cursor:pointer;border:none}
+.btCopy{display:block;float:none;margin-left:5px}
+
+
+.btContain{width:980px;margin:0 auto;margin-top:10px}
+#main{border:1px solid #ccc;background:url(../images/fall.gif) 0 2px repeat-x}
+#main .ca{margin:10px;border-bottom:3px solid #feeea8}
+#main h3{color:#c00;font-weight:700;font-size:16px;line-height:30px;text-align:center}
+#signin{float:left;width:610px;height:350px;background:#fff;border-right:1px solid #ccc}
+#signin h3{text-align:left}
+#signin .bizin{float:right;margin-top:-22px;font-size:14px;font-family:simsun;text-decoration:underline}
+#signin .bizin a,#signin .bizin a:visited{color:#666}
+
+#signr{float:left;width:610px;background:#fff;border-right:1px solid #ccc}
+#signr h3{text-align:left}
+#signr .bizin{float:right;margin-top:-22px;font-size:14px;font-family:simsun;text-decoration:underline}
+#signr .bizin a,#signr .bizin a:visited{color:#666}
+
+#main .cb{font-size:13px}
+#main .cb dl{clear:both;margin:20px}
+#main .cb dl.dotted{padding-bottom:15px;background:url(../images/dot.gif) 0 100% repeat-x}
+#signup dl{padding-left:200px}
+#main .cb dt{float:left;width:120px;line-height:27px}
+#main .cb dd{margin-bottom:10px;line-height:27px;vertical-align:middle}
+#main .cb dd span a,#main .cb dd span a:visited{color:#666}
+#main dd button{height:27px;vertical-align:middle}
+#main dd select{width:232px}
+#main .texti{width:226px;vertical-align:middle}
+#signin .forget a{text-decoration:underline}
+#signin .reload{cursor:pointer;color:#666;text-decoration:underline}
+
+#signr .forget a{text-decoration:underline}
+#signr .reload{cursor:pointer;color:#666;text-decoration:underline}
+
+#main label{margin-right:15px;vertical-align:middle}
+#main dt em{padding-right:3px;color:#c00;font-family:simsun}
+#main label input{margin-right:5px}
+#main input{vertical-align:middle}
+#main .code img{vertical-align:middle}
+#main .subtn{margin-top:20px;margin-bottom:10px;text-align:center}
+#main .subtn .btn{margin:0 10px}
+#signin .subtn{margin-left:20px;text-align:left}
+#signin .subtn .btn{margin:0 5px 0 0}
+
+#signr .subtn{margin-left:20px;text-align:left}
+#signr .subtn .btn{margin:0 5px 0 0}
+
+#funcIntro{float:left;width:330px;padding:15px}
+#funcIntro .signup{margin-top:10px;margin-bottom:30px;color:#039;font-weight:700;font-size:14px}
+#funcIntro .signup a,#signup .signup a:visited{color:#c00;font-weight:400;text-decoration:underline}
+#funcIntro .list{line-height:20px}
+#funcIntro .list li{margin-top:15px;padding-left:10px;background:url(../images/list.gif) 3px 9px no-repeat;color:#666}
+#funcIntro .list .hl{background-position:3px -81px;color:#c00}
+#funcIntro .go{float:right;margin-top:20px}
+#funcIntro .go a,#sidebar .go a:visited{color:#f60}
+
+.accMana #main{float:right;width:790px;height:378px}
+#accNav{float:left;width:140px;height:360px;padding:9px 19px;border:1px solid #ccc;font-size:14px;line-height:30px}
+#accNav li{overflow:hidden;height:30px;margin-bottom:6px;background:url(../images/repeat.gif) 0 -463px repeat-x}
+#accNav li span{display:block;background:url(../images/repeat.gif) 0 -493px no-repeat}
+#accNav li a{display:block;height:30px;padding-left:20px;background:url(../images/repeat.gif) 100% -523px no-repeat;color:#c00}
+#accNav li a:visited{color:#c00}
+#accNav .vazn a,#accNav .vazn a:visited{color:#000;font-weight:700}
+
+.tableA{margin:20px auto 0;font-size:13px}
+.tableA th,.tableA td{padding:7px}
+.tableA th{text-align:right}
+.tableA .texti{width:226px}
+.tableA select{width:232px}
+.tableA #code{width:164px}
+.tableA textarea{width:320px}
+
+.tableB{margin:10px auto;border:1px solid #ccc;line-height:25px}
+.tableB th,.tableB td{padding:0 20px;border:2px solid #fff;text-align:center}
+.tableB th{background:#feeea8;color:#c00;font-size:14px}
+.tableB td{background:#f5f5ec}
+
+.note{margin-top:40px;margin-bottom:20px;color:#666;font-size:14px;line-height:24px;text-align:center}
+.note strong{color:#c00;font-weight:700}
+.note a,.note a:visited{color:#c00;font-family:simsun}
+
+.cardAgre{text-align:center}
+
+.notice{height:70px;margin-top:90px;font-weight:700;font-size:16px;line-height:24px;vertical-align:middle}
+.notice table{margin:0 auto}
+.notice table th{padding-right:20px}
+.notice strong{color:#c00;font-weight:700}
+
+/*±ØÌîÏî£¨*£©*/
+.mst{ color:Red; vertical-align:middle;}
+
+.flor{float:right;margin-top:20px;font-family:simsun;text-align:right}
+.daciwe{color:#039}
+.daciwe em{color:#000}
+.chaname{margin-top:10px;color:#c00;font-weight:700;font-size:14px}

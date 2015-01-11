@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{background: #eee;margin: 0 0 5px 0;padding: 0;}
+body, input, select {font-size:14px; font-family:"微软雅黑", Arial, Helvetica, sans-serif; line-height:160%; color:#666;}
+div, ul, li, p, span, h1, h2, h3, h4, h5, h6, img, form, table, tr, td, dl, dt, dd, input, select,a, button, label {margin:0; padding:0;}
+button, img{ border:none;}
+div {overflow:hidden;_zoom:1}
+ul, li, ol {list-style:none;list-style-type:none;}
+img {border:0 none;}
+a {text-decoration:none; color:#333;}
+a:hover{text-decoration: underline; color:#0155a5;}
+.price{ font-family:Arial, Helvetica, sans-serif;}
+.wrap2 img,  .wrap img{filter:alpha(opacity:0);opacity:0;}
+
+
+

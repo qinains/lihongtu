@@ -1,0 +1,5 @@
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CIP2InterfaceSolution\Cryptography\bin\Debug\Cryptography.dll
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CIP2InterfaceSolution\Cryptography\bin\Debug\Cryptography.pdb
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CIP2InterfaceSolution\Cryptography\obj\Debug\ResolveAssemblyReference.cache
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CIP2InterfaceSolution\Cryptography\obj\Debug\Cryptography.dll
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CIP2InterfaceSolution\Cryptography\obj\Debug\Cryptography.pdb

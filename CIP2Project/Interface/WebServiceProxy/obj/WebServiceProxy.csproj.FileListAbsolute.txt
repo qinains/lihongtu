@@ -1,0 +1,6 @@
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\WebServiceProxy\bin\Debug\WebServiceProxy.dll.config
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\WebServiceProxy\bin\Debug\WebServiceProxy.dll
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\WebServiceProxy\bin\Debug\WebServiceProxy.pdb
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\WebServiceProxy\obj\Debug\ResolveAssemblyReference.cache
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\WebServiceProxy\obj\Debug\WebServiceProxy.dll
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\WebServiceProxy\obj\Debug\WebServiceProxy.pdb

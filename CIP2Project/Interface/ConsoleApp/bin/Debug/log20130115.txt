@@ -1,0 +1,9 @@
+====================================================
+ewline日期：2013-01-15 15:14:32,878ate 线程：[5116hread] 日志类别：ConsoleApp.Program.testLog4net(D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\ConsoleApp\Program.cs:38)evel 
+ewline[INFOroperty{NDC}] - asdfsdfsdfsdfsdfessage
+ewline
+ewline====================================================
+ewline日期：2013-01-15 15:14:32,928ate 线程：[5116hread] 日志类别：ConsoleApp.Program.testLog4net(D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\ConsoleApp\Program.cs:39)evel 
+ewline[ERRORroperty{NDC}] - sdfsdfsdffsessage
+ewline
+ewline

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CAPRoot>
+  <SessionHeader>
+    <ServiceCode>CAP01003</ServiceCode>
+    <Version>mbossUacVersion1</Version>
+    <ActionCode>0</ActionCode>
+    <TransactionID></TransactionID>
+    <SrcSysID>35000</SrcSysID>
+    <DigitalSign></DigitalSign>
+    <DstSysID></DstSysID>
+    <ReqTime></ReqTime>
+    <Request>
+      <ReqType></ReqType>
+      <ReqCode></ReqCode>
+      <ReqDesc></ReqDesc>
+    </Request>
+  </SessionHeader>
+  <SessionBody>
+    <SPSSOAuthReq>
+      <RedirectURL></RedirectURL>
+      <AcceptAccountTypeList>
+        <AcceptAccountType></AcceptAccountType>
+      </AcceptAccountTypeList>
+    </SPSSOAuthReq>
+  </SessionBody>
+</CAPRoot>

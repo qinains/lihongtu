@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CAPRoot>
+  <SessionHeader>
+    <ServiceCode></ServiceCode>
+    <Version></Version>
+    <ActionCode></ActionCode>
+    <TransactionID></TransactionID>
+    <SrcSysID></SrcSysID>
+    <DigitalSign></DigitalSign>
+    <DstSysID></DstSysID>
+    <ReqTime></ReqTime>
+    <Request>
+      <ReqType></ReqType>
+      <ReqCode></ReqCode>
+      <ReqDesc></ReqDesc>
+    </Request>
+  </SessionHeader>
+  <SessionBody>
+    <AssertionQueryReq></AssertionQueryReq>
+    <Ticket></Ticket>
+  </SessionBody>
+</CAPRoot>

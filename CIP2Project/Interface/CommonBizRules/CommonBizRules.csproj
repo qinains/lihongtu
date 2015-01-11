@@ -1,0 +1,154 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C53AC345-0940-4F9C-BF33-4A1790118A3C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CommonBizRules</RootNamespace>
+    <AssemblyName>CommonBizRules</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbstractInfoManage.cs" />
+    <Compile Include="Core\HttpFilterModule.cs" />
+    <Compile Include="DAO\BesttoneAccountDAO.cs" />
+    <Compile Include="BO\CallInterfaceLogBO.cs" />
+    <Compile Include="DAO\CardRechargeRecordDAO.cs" />
+    <Compile Include="BO\UDBSPInfoBO.cs" />
+    <Compile Include="DAO\AccountBindingRecordDAO.cs" />
+    <Compile Include="CertificateCodeClass.cs" />
+    <Compile Include="CommonBizRules.cs" />
+    <Compile Include="ConstHelper.cs" />
+    <Compile Include="DAO\BankRechargeOrderDAO.cs" />
+    <Compile Include="DAO\AccountRechargeRecordDAO.cs" />
+    <Compile Include="DAO\CustInfoDAO.cs" />
+    <Compile Include="DAO\RechargeBackRecordDAO.cs" />
+    <Compile Include="DAO\RechargeOrderDAO.cs" />
+    <Compile Include="DAO\BankRechargeRecordDAO.cs" />
+    <Compile Include="DataDefinition\SPCAData.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataDefinition\SPData.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataDefinition\SPInterfaceLimitData.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataDefinition\SPIPListData.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataDefinition\SysData.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CerFileOP.cs" />
+    <Compile Include="Entity\BesttoneAccount.cs" />
+    <Compile Include="Entity\AccountBindingRecord.cs" />
+    <Compile Include="Entity\CallInterfaceLog.cs" />
+    <Compile Include="Entity\CardRechargeRecord.cs" />
+    <Compile Include="Entity\CustBaseInfoEntity.cs" />
+    <Compile Include="Entity\RechargeBackRecord.cs" />
+    <Compile Include="Entity\UDBSPInfo.cs" />
+    <Compile Include="Entity\BankRechargeOrder.cs" />
+    <Compile Include="Entity\AccountRechargeRecord.cs" />
+    <Compile Include="Entity\RechargeOrder.cs" />
+    <Compile Include="Entity\BankRechargeRecord.cs" />
+    <Compile Include="PhoneAreaInfoManager.cs" />
+    <Compile Include="DataDefinition\PhoneAreaData.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DataDefinition\ProvinceData.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ProvinceInfoManager.cs" />
+    <Compile Include="SMS\PackType.cs" />
+    <Compile Include="SMS\ReceiveCode.cs" />
+    <Compile Include="SMS\ReceiveInfo.cs" />
+    <Compile Include="SMS\SmsClient.cs" />
+    <Compile Include="SMS\SmsMessage.cs" />
+    <Compile Include="SPInfoManager.cs" />
+    <Compile Include="SPInfoBO.cs" />
+    <Compile Include="SysInfoManager.cs" />
+    <Compile Include="UserToken.cs" />
+    <Compile Include="ValidateHelper.cs" />
+    <Compile Include="WebServiceCommon.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BTException\BTException.csproj">
+      <Project>{F2EC11B2-9FF9-4239-8EFE-18B36F6B20AA}</Project>
+      <Name>BTException</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Utility\Utility.csproj">
+      <Project>{5A0115AF-633E-47F3-BA4F-9E3D7B06453C}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebServiceProxy\WebServiceProxy.csproj">
+      <Project>{2DCE0200-0057-4A3D-8E05-B86250B6C66A}</Project>
+      <Name>WebServiceProxy</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://newbtuc.dev.vnet.cn:8081/BestTone2UCenterInterface/BTUCenterForUnifyInterface.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\cn.vnet.dev.newbtuc\</RelPath>
+      <UpdateFromURL>http://newbtuc.dev.vnet.cn:8081/BestTone2UCenterInterface/BTUCenterForUnifyInterface.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Sql\设置数据库证书密钥.sql" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* CSS Document */
+.wapPage{ width:320px; margin: 0 auto;}
+
+
+.endbg{ height:30px; border-bottom:1px solid #D5D5D5; background:-webkit-gradient(linear,0 0,0 100%,color-stop(0,#fff),color-stop(1,#f1f1f1));margin: 10px 0 0 0;line-height: 30px;}
+.endbg .title{ width:320px; margin: 0 auto;}
+
+
+.titlebg{ border-bottom:1px solid #D5D5D5; background:-webkit-gradient(linear,0 0,0 100%,color-stop(0,#fff),color-stop(1,#f1f1f1));}
+.titlebg .title{ width:300px; margin: 0 auto; height:30px; padding:10px;}
+.titlebg .title ul{display: -webkit-box; -webkit-box-orient: horizontal; width:100%;}
+.titlebg .title .child_back{ min-width:64px;}
+.titlebg .title .child_seach{-webkit-box-flex: 1; -webkit-box-align: center; margin:0 0 0 10px;}
+.titlebg .title .child_seachbt{ min-width:35px;}
+.titlebg .title .child_seach input{ height:29px; width:100%; border:1px solid #e4e4e4;}
+.titlebg .title .child_out{ min-width:64px;}
+.titlebg .title .child_text{-webkit-box-flex: 1; -webkit-box-align: center; text-align: center; line-height:30px; font-size:16px;}

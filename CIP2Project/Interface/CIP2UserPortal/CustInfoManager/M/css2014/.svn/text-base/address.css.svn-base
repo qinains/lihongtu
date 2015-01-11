@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.us_ad_06{ float:left; width:60px; padding:5px 20px 5px 0; font-size:16px; line-height:35px;height: 35px;}
+.us_ad_07{ float:left; width:220px; padding:5px 0;height: 35px;overflow: visible;}
+.us_ad_07 .us_txt{ height:17px; width:190px; font-size:16px; padding:5px; border:1px solid #ccc; background:#f9f9f9;}
+.us_ad_07 .us_ad{ height:55px; border:1px solid #ccc;}
+.us_ad_mb{ float: left; padding:20px 0 0 0;}
+.us_sel{ width:200px; height:32px; font-size:18px; text-indent:10px; border:1px solid #ccc;-webkit-appearance:none; background:url(/mwebapp/img/arong.png) no-repeat 178px center #fff;}
+.us_sel option{ padding:5px 0 0 0; height:20px;}
+.red{ color:#F00; line-height:25px;}
+.address{overflow: hidden;margin: 5px 0;}

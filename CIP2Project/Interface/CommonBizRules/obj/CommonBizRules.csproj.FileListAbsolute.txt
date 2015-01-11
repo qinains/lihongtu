@@ -1,0 +1,11 @@
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CommonBizRules\bin\Debug\CommonBizRules.dll
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CommonBizRules\bin\Debug\CommonBizRules.pdb
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CommonBizRules\bin\Debug\UPSException.dll
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CommonBizRules\bin\Debug\Utility.dll
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CommonBizRules\bin\Debug\WebServiceProxy.dll
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CommonBizRules\bin\Debug\WebServiceProxy.pdb
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CommonBizRules\bin\Debug\Utility.pdb
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CommonBizRules\bin\Debug\UPSException.pdb
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CommonBizRules\obj\Debug\ResolveAssemblyReference.cache
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CommonBizRules\obj\Debug\CommonBizRules.dll
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CommonBizRules\obj\Debug\CommonBizRules.pdb

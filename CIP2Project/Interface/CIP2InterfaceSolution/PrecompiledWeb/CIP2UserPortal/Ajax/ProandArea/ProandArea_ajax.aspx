@@ -1,0 +1,1 @@
+﻿<%@ page language="C#" autoeventwireup="true" inherits="Ajax_ProandArea_ProandArea_ajax, App_Web_9yvqg53n" enableEventValidation="false" %>

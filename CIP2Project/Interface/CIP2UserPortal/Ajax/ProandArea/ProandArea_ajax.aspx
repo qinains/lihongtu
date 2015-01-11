@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="ProandArea_ajax.aspx.cs" Inherits="Ajax_ProandArea_ProandArea_ajax" %>

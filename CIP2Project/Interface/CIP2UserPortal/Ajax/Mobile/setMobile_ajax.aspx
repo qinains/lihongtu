@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="setMobile_ajax.aspx.cs" Inherits="JS_setMobile_setMobile_AJAX" %>

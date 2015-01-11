@@ -1,0 +1,17 @@
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CIP2BizRules\obj\Debug\ResolveAssemblyReference.cache
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CIP2BizRules\bin\Debug\CIP2BizRules.dll
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CIP2BizRules\bin\Debug\CIP2BizRules.pdb
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CIP2BizRules\bin\Debug\CommonBizRules.dll
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CIP2BizRules\bin\Debug\Mailer.dll
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CIP2BizRules\bin\Debug\UPSException.dll
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CIP2BizRules\bin\Debug\Utility.dll
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CIP2BizRules\bin\Debug\WebServiceProxy.dll
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CIP2BizRules\bin\Debug\WebServiceProxy.pdb
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CIP2BizRules\bin\Debug\Utility.pdb
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CIP2BizRules\bin\Debug\CommonBizRules.pdb
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CIP2BizRules\bin\Debug\Mailer.pdb
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CIP2BizRules\bin\Debug\UPSException.pdb
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CIP2BizRules\obj\Debug\CIP2BizRules.dll
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CIP2BizRules\obj\Debug\CIP2BizRules.pdb
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CIP2BizRules\bin\Debug\log4net.dll
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CIP2BizRules\bin\Debug\Newtonsoft.Json.dll

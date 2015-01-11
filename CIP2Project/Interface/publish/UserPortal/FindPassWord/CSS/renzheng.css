@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.wrap{ width:974px; margin:0 auto;}
+.wrap .top{ height:109px; background:url(../images/logo.jpg) no-repeat;}
+.main{ line-height:32px; padding:10px 0 0 30px;}
+.main .file{ width:161px; text-align:right; float:left;}
+.main .inputs{float:left;}
+.main .inputs input{ height:30px; border:1px solid #b5b5b5; width:256px; padding:0 5px;}
+.main .wrong{ color:#F00; float:left; padding:0 0 0 5px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

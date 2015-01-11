@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:intf="www.fsti.com" xmlns:impl="www.fsti.com" targetNamespace="www.fsti.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="www.fsti.com">
+      <xsd:import namespace="http://schemas.xmlsoap.org/soap/encoding/" />
+      <xsd:complexType name="DeliverState">
+        <xsd:sequence>
+          <xsd:element name="deliverState" nillable="true" type="soapenc:string" />
+          <xsd:element name="queryHandler" type="xsd:long" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfDeliverState">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="soapenc:Array">
+            <xsd:attribute wsdl:arrayType="impl:DeliverState[]" ref="soapenc:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOf_soapenc_string">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="soapenc:Array">
+            <xsd:attribute wsdl:arrayType="soapenc:string[]" ref="soapenc:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+      <xsd:complexType name="ServiceException">
+        <xsd:sequence>
+          <xsd:element name="messageId" nillable="true" type="soapenc:string" />
+          <xsd:element name="text" nillable="true" type="soapenc:string" />
+          <xsd:element name="variables" nillable="true" type="impl:ArrayOf_soapenc_string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ShortMessage">
+        <xsd:sequence>
+          <xsd:element name="deliverTime" nillable="true" type="soapenc:string" />
+          <xsd:element name="destPhoneNumber" nillable="true" type="soapenc:string" />
+          <xsd:element name="linkid" nillable="true" type="soapenc:string" />
+          <xsd:element name="msgContent" nillable="true" type="soapenc:string" />
+          <xsd:element name="reserve" nillable="true" type="soapenc:string" />
+          <xsd:element name="srcPhoneNumber" nillable="true" type="soapenc:string" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ArrayOfShortMessage">
+        <xsd:complexContent mixed="false">
+          <xsd:restriction base="soapenc:Array">
+            <xsd:attribute wsdl:arrayType="impl:ShortMessage[]" ref="soapenc:arrayType" />
+          </xsd:restriction>
+        </xsd:complexContent>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ServiceException">
+    <wsdl:part name="fault" type="impl:ServiceException" />
+  </wsdl:message>
+  <wsdl:message name="notifyRecivedShortMessagesResponse" />
+  <wsdl:message name="notifyShortMessageStatesResponse" />
+  <wsdl:message name="notifyShortMessageStatesRequest">
+    <wsdl:part name="in0" type="impl:ArrayOfDeliverState" />
+  </wsdl:message>
+  <wsdl:message name="notifyRecivedShortMessagesRequest">
+    <wsdl:part name="in0" type="impl:ArrayOfShortMessage" />
+  </wsdl:message>
+  <wsdl:portType name="IPushPortClient">
+    <wsdl:operation name="notifyShortMessageStates" parameterOrder="in0">
+      <wsdl:input name="notifyShortMessageStatesRequest" message="impl:notifyShortMessageStatesRequest" />
+      <wsdl:output name="notifyShortMessageStatesResponse" message="impl:notifyShortMessageStatesResponse" />
+      <wsdl:fault name="ServiceException" message="impl:ServiceException" />
+    </wsdl:operation>
+    <wsdl:operation name="notifyRecivedShortMessages" parameterOrder="in0">
+      <wsdl:input name="notifyRecivedShortMessagesRequest" message="impl:notifyRecivedShortMessagesRequest" />
+      <wsdl:output name="notifyRecivedShortMessagesResponse" message="impl:notifyRecivedShortMessagesResponse" />
+      <wsdl:fault name="ServiceException" message="impl:ServiceException" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="PushPortClientSoapBinding" type="impl:IPushPortClient">
+    <wsdlsoap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <wsdl:operation name="notifyShortMessageStates">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="notifyShortMessageStatesRequest">
+        <wsdlsoap:body use="encoded" namespace="www.fsti.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="notifyShortMessageStatesResponse">
+        <wsdlsoap:body use="encoded" namespace="www.fsti.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+      <wsdl:fault name="ServiceException">
+        <wsdlsoap:fault use="encoded" name="ServiceException" namespace="www.fsti.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="notifyRecivedShortMessages">
+      <wsdlsoap:operation soapAction="" />
+      <wsdl:input name="notifyRecivedShortMessagesRequest">
+        <wsdlsoap:body use="encoded" namespace="www.fsti.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:input>
+      <wsdl:output name="notifyRecivedShortMessagesResponse">
+        <wsdlsoap:body use="encoded" namespace="www.fsti.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:output>
+      <wsdl:fault name="ServiceException">
+        <wsdlsoap:fault use="encoded" name="ServiceException" namespace="www.fsti.com" encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="IPushPortClientService">
+    <wsdl:port name="PushPortClient" binding="impl:PushPortClientSoapBinding">
+      <wsdlsoap:address location="http://localhost:8080/SMSPushPortClient/services/PushPortClient" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

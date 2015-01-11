@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+.wapPage div{ overflow:visible;}
+.wapPage .time_line .leftline{}
+.wapPage .time_line .wuliu_list{ position:relative; padding:0 0 20px 40px;  border-left:2px solid #bdbdbd; margin:0 0 0 12px;}
+.wapPage .time_line .wuliu_list em{ position:absolute; left:44px; bottom:35px; width:6px; height:6px; background:url(../img/jiantou.gif) no-repeat;}
+.wapPage .time_line .wuliu_list .point{ position:absolute; left:-6px; bottom:30px; background:#bdbdbd; border:2px solid #FFF;-webkit-border-radius: 10px; width:6px; height:6px; display:block;}
+.wapPage .time_line .wuliu_list .text{ padding:5px 10px; background:#ddd; margin:0 0 0 10px;}
+.wapPage .time_line .wuliu_list .text span{text-align: left; }
+.wapPage .time_line .wuliu_list .text .time{ padding:0 10px 0 0;}
+.wapPage .time_line .wuliu_list .text .zt{word-break: break-all;}
+
+.wapPage .time_line .now{  border-left:2px solid #f94600;}
+.wapPage .time_line .now em{background:url(../img/jiantou1.gif) no-repeat;}
+.wapPage .time_line .now .point{background:#f94600;}
+.wapPage .time_line .now .text{ background:#f94600; color:#FFF;}
+
+
+
+
+
+
+
+
+

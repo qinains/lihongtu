@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.BTs{display: -webkit-box; -webkit-box-orient: horizontal; width:100%; margin:10px 0 0 0;}
+.BTs .BT_buy, .BTs .BT_pic{-webkit-box-flex: 1; margin:5px; -webkit-box-align: center; line-height:31px; height:31px; text-align:center;}
+.BTs .BT_buy{ border:1px solid #c51210; }
+.BTs .BT_pic{background:-webkit-gradient(linear,0 0,0 100%,color-stop(0,#d7ecff),color-stop(1,#b2d0ed)); border:1px solid #a1c3e2; height:31px;}
+.BTs .BT_buy .but{ width:100%; border:none; height:31px; background:-webkit-gradient(linear,0 0,0 100%,color-stop(0,#fe7b12),color-stop(1,#cf2c0c)); cursor:pointer; color:#FFF;}
+.BTs .BT_pic a{ color:#34404c;}
+.BTs a{ display: inline-block; height:31px; width:100%;}
+
+.BTs a:hover{ text-decoration:none;}
+.numborder { background:#f7f7f7; border:1px solid #d7d7d7; margin:15px; padding:20px 0;}
+.numborder .num{ width:120px; margin:0 auto;}
+.num li{ float:left;}
+.num li a{ display:block; width:30px; height:30px; line-height:30px; border:1px solid #cfcfcf; text-align:center; margin:0 3px; font-size:18px; background:#f8f8f8;}
+.num li a:hover{ text-decoration:none;}
+.num li input{ height:30px; text-align:center; border:1px solid #cfcfcf;}
+

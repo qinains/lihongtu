@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CAPRoot>
+  <SessionHeader>
+    <ActionCode>1</ActionCode>
+    <TransactionID>35999201203300216517173</TransactionID>
+    <RspTime>20120330143014</RspTime>
+    <DigitalSign/>
+    <Response>
+      <RspType>0</RspType>
+      <RspCode>0000</RspCode>
+      <RspDesc>Success</RspDesc>
+    </Response>
+  </SessionHeader>
+  <SessionBody>
+    <AssertionQueryResp>
+      <AccountType>2000001</AccountType>
+      <AccountID>5515329801</AccountID>
+      <PWDType>01</PWDType>
+      <PWDAttrList>
+        <PWDAttr>
+          <AttrName>CityCode</AttrName>
+          <AttrValue>551</AttrValue>
+        </PWDAttr>
+      </PWDAttrList>
+      <ProvinceID>13</ProvinceID>
+      <ReturnURL> http://wtwebtest.ct10000.com/tymh/address_plus.do</ReturnURL>
+      <TrustedAccList>
+        <TrustedAcc>
+          <AccountNo>1</AccountNo>
+          <AccountType>0000000</AccountType>
+          <AccountID>null</AccountID>
+        </TrustedAcc>
+      </TrustedAccList>
+    </AssertionQueryResp>
+  </SessionBody>
+</CAPRoot>

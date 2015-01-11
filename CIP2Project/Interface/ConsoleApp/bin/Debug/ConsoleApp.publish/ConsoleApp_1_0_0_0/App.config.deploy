@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<!-- 
+    注意: 除了手动编辑此文件以外，您还可以使用 
+    Web 管理工具来配置应用程序的设置。可以使用 Visual Studio 中的
+     “网站”->“Asp.Net 配置”选项。
+    设置和注释的完整列表在 
+    machine.config.comments 中，该文件通常位于 
+    \Windows\Microsoft.Net\Framework\v2.x\Config 中
+-->
+<configuration>
+  <configSections>
+  </configSections>
+  <appSettings>
+    <!-- 数据库配置-->
+    <add key="BestToneCenterConStr" value="server=.;uid=sa;password=123456;database=CIP2;Max Pool Size=512;"/>
+    <!-->UserToken中字符串-->
+    <add key="TokenStr" value="fdasfas"/>
+    <!-->域名配置-->
+    <add key="CIPDomain" value="besttone.com.cn"/>
+    <!-->UserTokenCookie名称-->
+    <add key="CookieName" value="CIPUT"/>
+    <add key="ScoreSystemSecret" value="225AC1A9A923D3830230AD1F1030334A832D68CF4D94FDCF"/>
+    <!-->UserTokenCookie过期时间(小时)-->
+    <add key="CookieExpireTime" value="4"/>
+    <!-->域名地址-->
+    <add key="HostUrl" value="http://Customer.besttone.com.cn/UserPortal"/>
+    <!--卡级别-->
+    <add key="CustLevel" value="4" />
+    <!-- 积分系统SPID  TODO-->
+    <add key="ScoreBesttoneSPID" value="99999999"/>
+    <add key="ReqType" value="" />
+    <add key="ReqCode" value="" />
+    <add key="ReqDesc" value="" />
+    <!--全国UA查询归属地webService地址-->
+    <add key="GetInfoByTicketURL"  value="" />
+    <!--全国UAM-->
+    <add key="UAMUrl" value="https://uam.ct10000.com/ct10000uam-gate/SSOFromJF"/>
+    <add key="JFLoginUrl" value="https://sso.jf.118114.cn/sso/login"/>
+    <!--全国crm查询归属地webService地址-->
+    <add key="DEPServiceURL"  value="http://132.129.4.124/CRM-DEP/services/DEPService" />
+    <!--验证码有效时间 分钟-->
+    <add key="ValidatorAvailableMinute" value="5"/>
+
+    <!--邮箱认证URL-->
+    <add key="EmailAuthenURL" value="http://Customer.besttone.com.cn/UserPortal/authen.aspx?AuthenStr"/>
+
+    <!--接口访问限制配置 0:启用 1：不启用-->
+    <add key="IsInterfaceLimit" value="1"/>
+
+    <!--系统IP限制配置 0:启用 1：不启用-->
+    <add key="IsIPLimit" value="1"/>
+    <!--邮件信息-->
+    <add key="FormName" value="号码百事通客服"/>
+    <add key="From" value="service@jf.118114.cn"/>
+    <add key="UserID" value="service@jf.118114.cn"/>
+    <add key="Password" value="111111"/>
+    <add key="ServerName" value="mail.jf.118114.cn"/>
+    <!-- 统一接口平台URL-->
+    <add key="UnifyInterUrl" value="http://bksvc.besttone.com.cn:8080/WebService/services"/>
+    <!-- 积分平台URL-->
+    <add key="JFUrl" value="http://122.224.110.107/WebService_UserInfor/Service.asmx"/>
+
+    <add key="CenterForBizTourLogPath" value="C:\BesttoneCustomer\LogPortal"/>
+
+    <!--全国CRM认证的省-->
+    <add key="crmSSO" value=""/>
+    <!--全局退出http://116.228.55.146/PointsMall/logout.do-->
+    <add key="LogOut" value="http://customer.besttone.com.cn/UserPortal/custinfo.aspx"/>
+
+    <!--模式3省id-->
+    <add key="ProvinceID3" value=";05;07;19;24;26;30;29;21;27;15;31;14;23;01;18;25;22;04;16;06;11;03;08;20;12;28;09;17;10;13;"/>
+    <add key="ProvinceID3_1" value=";05;07;19;24;26;30;29;21;27;15;31;14;23;01;02;18;25;22;04;16;06;11;03;08;20;12;28;09;17;10;13;"/>
+    <add key="POSSPID"  value="35000099;" />
+    <add key="SrcSysSign"  value="integral10000000205810"  />
+
+    <add key="SelectAssertion" value="http://Customer.besttone.com.cn/UserPortal/SSO/SelectAssertion.aspx" />
+    <add key="SSOReturnURL"  value=""  />
+
+    <!--模式1，2-->
+    <add key="MSProvinceID" value=";10;" />
+    <add key="UAOUTIDLIst" value=";20;" />
+    <add key="HQList" value=";01;02;08;09;14;18;20;21;22;23;25;08;05;17;15;30;06;04;28;07;35;31;26;10" />
+    <!-- 不需要登录的页面名称-->
+    <add key="NoLoginPageList" value="Success"/>
+
+
+	  <add key="bestpay_webservice_uri" value="http://132.129.11.184:7004/provfront/services/businessService"/>
+
+
+	  <!-- 
+<add key="bestpay_webservice_uri" value="http://132.129.11.185:7000/provfront/services/businessService"/>
+	-->
+<add key="bestpay_encrypt_webservice_uri" value="http://bksvc.besttone.com.cn/Encrypt/services/Encrypt"/>
+
+
+
+</appSettings>
+  <connectionStrings/>
+  <system.web>
+    <globalization requestEncoding="utf-8" responseEncoding="utf-8" culture="zh-CN" fileEncoding="utf-8"/>
+    <customErrors mode="Off"/>
+    <pages enableEventValidation="false"></pages>
+
+    <!-- 
+            设置 compilation debug="true" 将调试符号插入
+            已编译的页面中。但由于这会 
+            影响性能，因此只在开发过程中将此值 
+            设置为 true。
+        -->
+    <compilation debug="true"/>
+    <!--
+            通过 <authentication> 节可以配置 ASP.NET 使用的 
+            安全身份验证模式，
+            以标识传入的用户。 
+        -->
+    <authentication mode="Windows"/>
+    <!--
+            如果在执行请求的过程中出现未处理的错误，
+            则通过 <customErrors> 节可以配置相应的处理步骤。具体说来，
+            开发人员通过该节可以配置
+            要显示的 html 错误页
+            以代替错误堆栈跟踪。
+
+        <customErrors mode="RemoteOnly" defaultRedirect="GenericErrorPage.htm">
+            <error statusCode="403" redirect="NoAccess.htm" />
+            <error statusCode="404" redirect="FileNotFound.htm" />
+        </customErrors>
+        -->
+  </system.web>
+
+</configuration>

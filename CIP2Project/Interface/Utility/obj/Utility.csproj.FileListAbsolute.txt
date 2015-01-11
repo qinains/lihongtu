@@ -1,0 +1,5 @@
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\Utility\bin\Debug\Utility.dll
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\Utility\bin\Debug\Utility.pdb
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\Utility\obj\Debug\ResolveAssemblyReference.cache
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\Utility\obj\Debug\Utility.dll
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\Utility\obj\Debug\Utility.pdb

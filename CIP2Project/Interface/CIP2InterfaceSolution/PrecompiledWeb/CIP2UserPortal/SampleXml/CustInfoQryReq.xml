@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContractRoot>
+	<TcpCont>
+		<BusCode>BUS17002</BusCode>
+		<ServiceCode>SVC11001</ServiceCode>
+		<ServiceContractVer>SVC1100120091002</ServiceContractVer>
+		<ActionCode>0</ActionCode>
+		<TransactionID>6001030001200906220000000622</TransactionID>
+		<ServiceLevel>1</ServiceLevel>
+		<SrcOrgID>100000</SrcOrgID>
+		<SrcSysID>1000000001</SrcSysID>
+		<SrcSysSign>123</SrcSysSign>
+		<DstOrgID>600203</DstOrgID>
+		<DstSysID>6002030001</DstSysID>
+		<ReqTime>20090730201818</ReqTime>
+	</TcpCont>
+	<SvcCont>
+		<QryInfoReq>
+				<InfoTypeID>31</InfoTypeID>
+				<PartyCodeInfo>
+					<CodeType>11</CodeType>
+					<CodeValue>18910281028</CodeValue>
+					<CityCode/>
+				</PartyCodeInfo>
+				<PasswdFlag>1</PasswdFlag>
+				<CCPasswd>123456</CCPasswd>
+				<IdentityInfo/>
+				<Conditions/>
+		</QryInfoReq>
+	</SvcCont>
+</ContractRoot>

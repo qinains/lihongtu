@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AccountInfoCheckResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                        xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+                        xmlns="http://udb.chinatelecom.com">
+  <ResultCode>0</ResultCode>
+  <UserType>0</UserType>
+  <ReturnUserGroupList xsi:nil="true" />
+  <UserID>18918790558</UserID>
+  <UserIDType />
+  <PUserID>02009571215</PUserID>
+  <Alias>lihongtu</Alias>
+  <BindingAccessNo />
+  <ThirdSsUserID />
+  <UserIDStatus xsi:nil="true" />
+  <UserIDSsStatus />
+  <UserPayType>1</UserPayType>
+  <PrePaySystemNo />
+  <Description>&lt;Ex&gt;&lt;PID&gt;02&lt;/PID&gt;&lt;NF&gt;2&lt;/NF&gt;&lt;/Ex&gt;</Description>
+</AccountInfoCheckResult>

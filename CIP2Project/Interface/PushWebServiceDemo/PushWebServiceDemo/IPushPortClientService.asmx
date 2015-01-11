@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="IPushPortClientService.asmx.cs" Class="PushWebServiceDemo.Service1" %>

@@ -1,0 +1,1 @@
+﻿<%@ page language="C#" autoeventwireup="true" inherits="Ajax_Email_findPwd_ajax, App_Web_findpwd_ajax.aspx.c5b59fe4" enableEventValidation="false" %>

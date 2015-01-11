@@ -1,0 +1,81 @@
+USE [besttone]
+GO
+/****** 对象:  StoredProcedure [dbo].[up_BT_V5_Interface_UserAuthenStyleUpload]    脚本日期: 06/04/2009 14:25:11 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+
+
+ 
+ALTER  Procedure [dbo].[up_BT_V5_Interface_UserAuthenStyleUpload]
+(
+	 @SysID varchar(2),
+	 @ID varchar(16),  
+     @AreaID varchar(3),  
+     @AuthenRecords text,
+     @Result int out,
+     @ErrMsg varchar(256) out,
+     @CustID varchar(18) out 
+     
+) as
+	Declare @DealTime DateTime 
+	Set @DealTime = GetDate()
+
+    set @ErrMsg=''
+    set @Result=0
+	Declare @AuthenDoc int
+
+	Declare @Authen Table
+	(
+		 AuthenName varchar(20),
+    	AuthenType varchar(2)
+	)
+
+	if( @AuthenRecords is not null )
+	Begin
+		-- 解析请求数据
+		-- 解析绑定电话列表关系
+		EXECUTE sp_xml_preparedocument @AuthenDoc OUTPUT, @AuthenRecords
+
+		Insert Into @Authen( AuthenName, AuthenType )
+		SELECT AuthenName, AuthenType 	
+			FROM OpenXML( @AuthenDoc, '/ROOT/AuthenRecord' , 2 ) 
+			With( AuthenName	Varchar(20), AuthenType varchar(2) )
+	End
+	
+	
+	
+		select @CustID=c.custid from CustUserInfo u with(nolock),CustInfo c with(nolock) where u.outerid =@ID and c.areaid=@AreaID and c.custid=u.custid
+		if(@@RowCount=0)
+		begin
+            Set @Result = -19999
+			Set @ErrMsg = '无此客户'				
+			return
+		end
+	begin Tran		
+        delete from UserAuthenStyle where CustID=@CustID 
+        if(@@Error<>0 )
+        begin
+             Set @Result = -19999
+			 Set @ErrMsg = '清楚认证信息历史记录失败'	
+             Rollback			
+			return
+        end
+
+		Insert into UserAuthenStyle( CustID,AuthenName,AuthenType,SourceSPID,Status,Description,DealTime)
+			select  @CustID,AuthenName,AuthenType,@SysID,'0','',@DealTime from @Authen
+		if(@@Error<>0 )
+		Begin
+			Set @Result = -19999
+			Set @ErrMsg = '插入认证方式表失败'
+			Rollback			
+			return
+		End
+
+	commit
+	return
+
+	
+
+		

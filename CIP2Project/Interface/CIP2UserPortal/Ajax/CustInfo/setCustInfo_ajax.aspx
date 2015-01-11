@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="setCustInfo_ajax.aspx.cs" Inherits="Ajax_CustInfo_setCustInfo" %>

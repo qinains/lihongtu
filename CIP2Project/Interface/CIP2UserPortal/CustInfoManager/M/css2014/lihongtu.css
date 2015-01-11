@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+
+.left{ float:left;}
+.right{ float:right;}
+.top{ text-align:center; height:43px; background:#ededed; line-height:43px; border-bottom:1px solid #d1d1d1; font-size:18px; color:#969696;}
+.top .back{ display:block; width:20px; background:url(../img2014/ba_back.gif) no-repeat; height:43px; float:left;}
+.top p{ padding:0 20px 0 0;}
+.wrap{ margin:0 auto; width:320px;}
+.wrap .reg{ color:#232323; font-size:14px;}
+.wrap .reg li{ line-height:42px; height:42px; padding:8px 5px 0 5px;}
+.wrap .reg .file{ width:75px; float:left; line-height:42px; height:42px;}
+.wrap .reg .input1{ height:40px; line-height:40px; border:1px solid #c8c9c9; width:214px; padding:0 5px;}
+.wrap .reg .sel1{ line-height:40px; padding:5px 0 5px 5px; border:1px solid #c8c9c9; background:#FFF;}
+.wrap .reg .textinput input{ line-height:38px; height:38px; border:1px solid #c8c9c9; font-size:14px; padding:0 5px; width:220px;}
+.wrap .reg .textinput .yanzhengma{ width:100px;}
+
+
+.bt_bb{ display:block; height:41px; width:196px; line-height:41px; background:#3a7bed; border:1px solid #2367df; border-radius:5px; margin:0 auto; color:#FFF;}
+.bt_bb:hover{ color:#FFF;}
+.bt_bh{ display:block; height:41px; width:196px; line-height:41px; background:#dbdbdb; border:1px solid #c8c9c9; border-radius:5px; margin:0 auto; color:#808080;}
+.bt_bh:hover{ color:#808080;}
+.bt_bo{width:196px; height:40px; border:1px solid #ec6c00; border-radius:5px; display:block; margin:0 auto; line-height:40px; background:#ff6c00; color:#FFF; font-size:17px;}
+.bt_bo:hover{ color:#fff;}
+
+
+.wrap li{ height:42px; line-height:40px; margin:12px 0 0 0;}
+.wrap .file{ width:100px; float:left;}
+.wrap .input{ width:210px; float:left;}
+.wrap .input input{ height:40px; line-height:40px; border:1px solid #c8c9c9; width:205px;}
+.wrap .input .chushi{ color:#969696;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

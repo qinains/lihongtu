@@ -1,0 +1,11 @@
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CrmSSO\bin\Debug\CrmSSO.dll
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CrmSSO\bin\Debug\CrmSSO.pdb
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CrmSSO\bin\Debug\UPSException.dll
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CrmSSO\bin\Debug\Utility.dll
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CrmSSO\bin\Debug\WebServiceProxy.dll
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CrmSSO\bin\Debug\WebServiceProxy.pdb
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CrmSSO\bin\Debug\Utility.pdb
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CrmSSO\bin\Debug\UPSException.pdb
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CrmSSO\obj\Debug\ResolveAssemblyReference.cache
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CrmSSO\obj\Debug\CrmSSO.dll
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\CrmSSO\obj\Debug\CrmSSO.pdb

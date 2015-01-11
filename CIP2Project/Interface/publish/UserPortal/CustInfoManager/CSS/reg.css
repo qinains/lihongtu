@@ -1,0 +1,8 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.reg{ width:790px; font-family:"宋体"; border:1px solid #dadada; color:#000;}
+.reg .title{ text-align:center; font-size:24px; background:#f4f4f4; border-bottom:1px solid #e6e6e6; height:69px; line-height:69px;}
+.reg .num{ padding:321px 0 0 0; background:url(../images/reg1.jpg) no-repeat center 0;}
+
+

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ConstRoot>
+  <ConstUrls>
+    <!--号百门户的登录页面-->
+    <Url ID="BesttoneHomePage">http://www.118114.cn</Url>
+    <!--号百门户的注册页面-->
+    <Url ID="BesttoneLoginPage">http://customer.besttone.com.cn/UserPortal/sso/login.aspx</Url>
+    <!--号百注册页面-->
+    <Url ID="BesttoneRegisterPage">http://customer.besttone.com.cn/UserPortal/signup.aspx</Url>
+    <!--号百通过邮件重置页面-->
+    <!--<Url ID="BesttoneResetPwdByEmail">http://customer.besttone.com.cn/UserPortal/FindPassWord/ResetPwdByEmail.aspx</Url>-->
+    <Url ID="BesttoneResetPwdByEmail">http://localhost/CIP2UserPortal/FindPassWord/ResetPwdByEmail.aspx</Url>
+  </ConstUrls>
+  <ConstParams>
+
+    <!--号百的SPID-->
+    <Parameter ID="BesttoneSPID" type="String">35000000</Parameter>
+    <!--积分SPID-->
+    <Parameter ID="ScoreBesttoneSPID" type="String">35000050</Parameter>
+    <!--通过邮件重置密码的超时时间,单位:小时-->
+    <Parameter ID="ResetPwdExpiredHour" type="Int32">2</Parameter>
+    <!--是否启用数据库记录日志,0:启用，1:不启用-->
+    <Parameter ID="DBLogEnabled" type="String">1</Parameter>
+    <!--不记录数据库日志的接口-->
+    <Parameter ID="UnWriteDBLogInterface" type="String">PhonePosition,UserAuthV3</Parameter>
+  </ConstParams>
+  <!--发送邮件服务器信息-->
+  <MailSMTPServer>
+    <FormName>号码百事通客服</FormName>
+    <From>service@jf.118114.cn</From>
+    <UserID>service@jf.118114.cn</UserID>
+    <Password>111111</Password>
+    <ServerName>mail.jf.118114.cn</ServerName>
+  </MailSMTPServer>
+</ConstRoot>

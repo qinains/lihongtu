@@ -1,0 +1,139 @@
+﻿.msg-inline {
+	DISPLAY: none
+}
+.msg-inline .msg-default {
+	DISPLAY: inline-block
+}
+.msg .msg-default {
+	BORDER-BOTTOM: #ffcc7f 1px solid; 
+	BORDER-LEFT: #ffcc7f 1px solid; 
+	PADDING-BOTTOM: 2px; 
+	PADDING-LEFT: 5px; 
+	PADDING-RIGHT: 5px; 
+	BACKGROUND: #ffffe5; 
+	OVERFLOW: visible; 
+	BORDER-TOP: #ffcc7f 1px solid; 
+	BORDER-RIGHT: #ffcc7f 1px solid; 
+	PADDING-TOP: 4px; 
+	_height: 17px;
+	margin:0px;
+}
+.msg .msg-icon {
+	LINE-HEIGHT: 0; MARGIN: 1px 5px 1px 0px; WIDTH: 16px; BACKGROUND: url(../Images/T1g3uoXdpQXXXXXXXX-60-280.png) no-repeat 0px -160px; FLOAT: left; HEIGHT: 16px; FONT-SIZE: 0px
+}
+.msg .msg-title {
+	PADDING-RIGHT: 2px; DISPLAY: inline; FONT-WEIGHT: bold
+}
+.msg .msg-content {
+	DISPLAY: inline
+}
+.msg .indent.msg-content {
+	DISPLAY: inline; FLOAT: left
+}
+.msg .vm.msg-title {
+	POSITION: relative; TOP: 1px
+}
+.msg .vm.msg-content {
+	POSITION: relative; TOP: 1px
+}
+.msg .msg-error {
+	BORDER-BOTTOM: #ff8080 1px solid; 
+	BORDER-LEFT: #ff8080 1px solid; 
+	BACKGROUND: #fff2f2; 
+	BORDER-TOP: #ff8080 1px solid; 
+	BORDER-RIGHT: #ff8080 1px solid
+}
+.msg .msg-error .msg-icon {
+	BACKGROUND-POSITION: 0px 0px
+}
+.msg .msg-stop {
+	BORDER-BOTTOM: #ff8080 1px solid; BORDER-LEFT: #ff8080 1px solid; BACKGROUND: #fff2f2; BORDER-TOP: #ff8080 1px solid; BORDER-RIGHT: #ff8080 1px solid
+}
+.msg .msg-stop .msg-icon {
+	BACKGROUND-POSITION: 0px -40px
+}
+.msg .msg-question {
+	BORDER-BOTTOM: #ffcc7f 1px solid; BORDER-LEFT: #ffcc7f 1px solid; BACKGROUND: #ffffe5; BORDER-TOP: #ffcc7f 1px solid; BORDER-RIGHT: #ffcc7f 1px solid
+}
+.msg .msg-question .msg-icon {
+	BACKGROUND-POSITION: 0px -80px
+}
+.msg .msg-attention {
+	BORDER-BOTTOM: #40b3ff 1px solid; BORDER-LEFT: #40b3ff 1px solid; BACKGROUND: #e5f5ff; BORDER-TOP: #40b3ff 1px solid; BORDER-RIGHT: #40b3ff 1px solid
+}
+.msg .msg-attention .msg-icon {
+	BACKGROUND-POSITION: 0px -120px
+}
+.msg .msg-tips {
+	BORDER-BOTTOM: #ffcc7f 1px solid; BORDER-LEFT: #ffcc7f 1px solid; BACKGROUND: #ffffe5; BORDER-TOP: #ffcc7f 1px solid; BORDER-RIGHT: #ffcc7f 1px solid
+}
+.msg .msg-tips .msg-icon {
+	BACKGROUND-POSITION: 0px -160px
+}
+.msg .msg-ok {
+	BORDER-BOTTOM: #4dbf00 1px solid; BORDER-LEFT: #4dbf00 1px solid; BACKGROUND: #f0ffe5; BORDER-TOP: #4dbf00 1px solid; BORDER-RIGHT: #4dbf00 1px solid
+}
+.msg .msg-ok .msg-icon {
+	BACKGROUND-POSITION: 0px -200px
+}
+.msg .msg-notice {
+	BORDER-BOTTOM: #ffcc7f 1px solid; BORDER-LEFT: #ffcc7f 1px solid; BACKGROUND: #ffffe5; BORDER-TOP: #ffcc7f 1px solid; BORDER-RIGHT: #ffcc7f 1px solid
+}
+.msg .msg-notice .msg-icon {
+	BACKGROUND-POSITION: 0px -240px
+}
+.msg-strong .msg-default {
+	PADDING-BOTTOM: 6px; MIN-HEIGHT: 35px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; PADDING-TOP: 6px; _height: 35px
+}
+.msg-strong .msg-icon {
+	WIDTH: 32px; BACKGROUND-POSITION: 100% -160px; HEIGHT: 32px; TOP: 6px; MARGIN-RIGHT: 10px; LEFT: 10px
+}
+.msg-strong .msg-title {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; MARGIN-LEFT: 42px; FONT-SIZE: 14px; PADDING-TOP: 0px
+}
+.msg-strong .msg-content {
+	DISPLAY: block; MARGIN-LEFT: 42px
+}
+.msg-strong .vm.msg-title {
+	POSITION: relative; TOP: 6px
+}
+.msg-strong .vm.msg-content {
+	POSITION: relative; TOP: 6px
+}
+.msg-strong .msg-error .msg-icon {
+	BACKGROUND-POSITION: 100% 0px
+}
+.msg-strong .msg-stop .msg-icon {
+	BACKGROUND-POSITION: 100% -40px
+}
+.msg-strong .msg-question .msg-icon {
+	BACKGROUND-POSITION: 100% -80px
+}
+.msg-strong .msg-attention .msg-icon {
+	BACKGROUND-POSITION: 100% -120px
+}
+.msg-strong .msg-tips .msg-icon {
+	BACKGROUND-POSITION: 100% -160px
+}
+.msg-strong .msg-ok .msg-icon {
+	BACKGROUND-POSITION: 100% -200px
+}
+.msg-strong .msg-notice .msg-icon {
+	BACKGROUND-POSITION: 100% -240px
+}
+.msg-weak {
+	MARGIN-BOTTOM: 0px
+}
+.msg-weak .msg-default {
+	BORDER-BOTTOM: medium none; BORDER-LEFT: medium none; PADDING-BOTTOM: 4px; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; BACKGROUND: none transparent scroll repeat 0% 0%; BORDER-TOP: medium none; BORDER-RIGHT: medium none; PADDING-TOP: 4px
+}
+.msg-weak .msg-icon {
+	LEFT: 0px
+}
+
+.hide.msg {
+	VISIBILITY: hidden !important
+}
+.show.msg {
+	VISIBILITY: visible !important
+}

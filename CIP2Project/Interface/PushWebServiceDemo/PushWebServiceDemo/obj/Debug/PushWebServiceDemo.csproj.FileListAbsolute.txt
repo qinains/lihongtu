@@ -1,0 +1,10 @@
+F:\WorkCode\车主管家\短信上行接口\PushWebServiceDemo\PushWebServiceDemo\bin\PushWebServiceDemo.dll
+F:\WorkCode\车主管家\短信上行接口\PushWebServiceDemo\PushWebServiceDemo\bin\PushWebServiceDemo.pdb
+F:\WorkCode\车主管家\短信上行接口\PushWebServiceDemo\PushWebServiceDemo\obj\Debug\ResolveAssemblyReference.cache
+F:\WorkCode\车主管家\短信上行接口\PushWebServiceDemo\PushWebServiceDemo\obj\Debug\PushWebServiceDemo.dll
+F:\WorkCode\车主管家\短信上行接口\PushWebServiceDemo\PushWebServiceDemo\obj\Debug\PushWebServiceDemo.pdb
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\PushWebServiceDemo\PushWebServiceDemo\bin\PushWebServiceDemo.dll
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\PushWebServiceDemo\PushWebServiceDemo\bin\PushWebServiceDemo.pdb
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\PushWebServiceDemo\PushWebServiceDemo\obj\Debug\ResolveAssemblyReference.cache
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\PushWebServiceDemo\PushWebServiceDemo\obj\Debug\PushWebServiceDemo.dll
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\PushWebServiceDemo\PushWebServiceDemo\obj\Debug\PushWebServiceDemo.pdb

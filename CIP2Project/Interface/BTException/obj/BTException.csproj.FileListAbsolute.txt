@@ -1,0 +1,5 @@
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\BTException\bin\Debug\UPSException.dll
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\BTException\bin\Debug\UPSException.pdb
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\BTException\obj\Debug\ResolveAssemblyReference.cache
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\BTException\obj\Debug\UPSException.dll
+D:\work\dotnet\CIP2\trunk\Development\CIP2Project\Interface\BTException\obj\Debug\UPSException.pdb

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="www.fsti.com" xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="www.fsti.com" xmlns:intf="www.fsti.com" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!--WSDL created by Apache Axis version: 1.4
+Built on Apr 22, 2006 (06:55:48 PDT)-->
+ <wsdl:types>
+  <schema targetNamespace="www.fsti.com" xmlns="http://www.w3.org/2001/XMLSchema">
+   <import namespace="http://schemas.xmlsoap.org/soap/encoding/"/>
+   <complexType name="DeliverState">
+    <sequence>
+     <element name="deliverState" nillable="true" type="soapenc:string"/>
+     <element name="queryHandler" type="xsd:long"/>
+    </sequence>
+   </complexType>
+   <complexType name="ArrayOfDeliverState">
+    <complexContent>
+     <restriction base="soapenc:Array">
+      <attribute ref="soapenc:arrayType" wsdl:arrayType="impl:DeliverState[]"/>
+     </restriction>
+    </complexContent>
+   </complexType>
+   <complexType name="ArrayOf_soapenc_string">
+    <complexContent>
+     <restriction base="soapenc:Array">
+      <attribute ref="soapenc:arrayType" wsdl:arrayType="soapenc:string[]"/>
+     </restriction>
+    </complexContent>
+   </complexType>
+   <complexType name="ServiceException">
+    <sequence>
+     <element name="messageId" nillable="true" type="soapenc:string"/>
+     <element name="text" nillable="true" type="soapenc:string"/>
+     <element name="variables" nillable="true" type="impl:ArrayOf_soapenc_string"/>
+    </sequence>
+   </complexType>
+   <complexType name="ShortMessage">
+    <sequence>
+     <element name="deliverTime" nillable="true" type="soapenc:string"/>
+     <element name="destPhoneNumber" nillable="true" type="soapenc:string"/>
+     <element name="linkid" nillable="true" type="soapenc:string"/>
+     <element name="msgContent" nillable="true" type="soapenc:string"/>
+     <element name="reserve" nillable="true" type="soapenc:string"/>
+     <element name="srcPhoneNumber" nillable="true" type="soapenc:string"/>
+    </sequence>
+   </complexType>
+   <complexType name="ArrayOfShortMessage">
+    <complexContent>
+     <restriction base="soapenc:Array">
+      <attribute ref="soapenc:arrayType" wsdl:arrayType="impl:ShortMessage[]"/>
+     </restriction>
+    </complexContent>
+   </complexType>
+  </schema>
+ </wsdl:types>
+
+   <wsdl:message name="ServiceException">
+
+      <wsdl:part name="fault" type="impl:ServiceException"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="notifyRecivedShortMessagesResponse">
+
+   </wsdl:message>
+
+   <wsdl:message name="notifyShortMessageStatesResponse">
+
+   </wsdl:message>
+
+   <wsdl:message name="notifyShortMessageStatesRequest">
+
+      <wsdl:part name="in0" type="impl:ArrayOfDeliverState"/>
+
+   </wsdl:message>
+
+   <wsdl:message name="notifyRecivedShortMessagesRequest">
+
+      <wsdl:part name="in0" type="impl:ArrayOfShortMessage"/>
+
+   </wsdl:message>
+
+   <wsdl:portType name="IPushPortClient">
+
+      <wsdl:operation name="notifyShortMessageStates" parameterOrder="in0">
+
+         <wsdl:input message="impl:notifyShortMessageStatesRequest" name="notifyShortMessageStatesRequest"/>
+
+         <wsdl:output message="impl:notifyShortMessageStatesResponse" name="notifyShortMessageStatesResponse"/>
+
+         <wsdl:fault message="impl:ServiceException" name="ServiceException"/>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="notifyRecivedShortMessages" parameterOrder="in0">
+
+         <wsdl:input message="impl:notifyRecivedShortMessagesRequest" name="notifyRecivedShortMessagesRequest"/>
+
+         <wsdl:output message="impl:notifyRecivedShortMessagesResponse" name="notifyRecivedShortMessagesResponse"/>
+
+         <wsdl:fault message="impl:ServiceException" name="ServiceException"/>
+
+      </wsdl:operation>
+
+   </wsdl:portType>
+
+   <wsdl:binding name="PushPortClientSoapBinding" type="impl:IPushPortClient">
+
+      <wsdlsoap:binding style="rpc" transport="http://schemas.xmlsoap.org/soap/http"/>
+
+      <wsdl:operation name="notifyShortMessageStates">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="notifyShortMessageStatesRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="www.fsti.com" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="notifyShortMessageStatesResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="www.fsti.com" use="encoded"/>
+
+         </wsdl:output>
+
+         <wsdl:fault name="ServiceException">
+
+            <wsdlsoap:fault encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" name="ServiceException" namespace="www.fsti.com" use="encoded"/>
+
+         </wsdl:fault>
+
+      </wsdl:operation>
+
+      <wsdl:operation name="notifyRecivedShortMessages">
+
+         <wsdlsoap:operation soapAction=""/>
+
+         <wsdl:input name="notifyRecivedShortMessagesRequest">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="www.fsti.com" use="encoded"/>
+
+         </wsdl:input>
+
+         <wsdl:output name="notifyRecivedShortMessagesResponse">
+
+            <wsdlsoap:body encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" namespace="www.fsti.com" use="encoded"/>
+
+         </wsdl:output>
+
+         <wsdl:fault name="ServiceException">
+
+            <wsdlsoap:fault encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" name="ServiceException" namespace="www.fsti.com" use="encoded"/>
+
+         </wsdl:fault>
+
+      </wsdl:operation>
+
+   </wsdl:binding>
+
+   <wsdl:service name="IPushPortClientService">
+
+      <wsdl:port binding="impl:PushPortClientSoapBinding" name="PushPortClient">
+
+         <wsdlsoap:address location="http://localhost:8080/SMSPushPortClient/services/PushPortClient"/>
+
+      </wsdl:port>
+
+   </wsdl:service>
+
+</wsdl:definitions>

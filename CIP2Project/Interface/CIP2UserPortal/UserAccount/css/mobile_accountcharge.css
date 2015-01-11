@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{margin: 0 0 5px 0;padding: 0;}
+body, input, select {font-size:12px; font-family: "冬青黑体简体中文 W6" "宋体", Arial, Helvetica, sans-serif; line-height:160%;}
+div, ul, li, p, span, h1, h2, h3, h4, h5, h6, img, form, table, tr, td, dl, dt, dd, input, select,a, button, label {margin:0; padding:0;}
+button, img{ border:none;}
+div {overflow:hidden;_zoom:1}
+ul, li, ol {list-style:none;list-style-type:none;}
+img {border:0 none;}
+a {text-decoration:none; color:#333;}
+a:hover{text-decoration: none; color:#0155a5;}
+.wapPage{ width:320px; margin: 0 auto;}
+.price{ color:#cc1a1a; font-size:16px; font-weight:bold;}

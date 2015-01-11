@@ -1,0 +1,1 @@
+﻿<%@ page language="C#" autoeventwireup="true" inherits="JS_setMobile_setMobile_AJAX, App_Web_setmobile_ajax.aspx.b320e665" enableEventValidation="false" %>

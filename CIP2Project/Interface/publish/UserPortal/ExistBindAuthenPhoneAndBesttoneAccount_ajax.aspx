@@ -1,0 +1,1 @@
+﻿<%@ page language="C#" autoeventwireup="true" inherits="ExistBindAuthenPhoneAndBesttoneAccount_ajax, App_Web_existbindauthenphoneandbesttoneaccount_ajax.aspx.cdcab7d2" enableEventValidation="false" %>

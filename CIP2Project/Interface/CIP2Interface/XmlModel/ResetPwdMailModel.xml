@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>邮件通知-中国电信号码百事通</title>
+    <meta content="all" name="robots" />
+    <meta name="Description" content="" />
+    <meta name="Keywords" content="" />
+    <style type="text/css">
+      /*Tenlin Global Document */
+      html {width:100%;}
+      *html {width:100%;}
+      td, input, select, body, textarea, div {font-family:Verdana, Tahoma, Arial, "宋体";font-size:12px;color:#000;}
+      td, textarea, div {line-height:150%;}
+      div {display:block;height:auto;}
+      form, body {margin:0;padding:0;}
+      select, body, textarea {background:#fff;font-size:12px;}
+      select {font:normal 12px Arial;line-height:20px;}
+      textarea {padding:4px;}
+      img {border:none}
+      a {text-decoration:none;cursor:pointer;color:#069}
+      a:hover {text-decoration:underline;cursor:pointer;color:red}
+      ul {margin:0;}
+      li {list-style:none;}
+      /* PassPort Global Document */
+      body {width:720px;margin:0 auto 0;}
+      div, table {float:left}
+      p {margin:0;}
+      ul, ol, li {margin:0;padding:0}
+      /* Box */
+      .globalTop {width:660px;height:32px}
+      .globalTop .logo {padding: 5px 0 0 3px;}
+      .globalTop .help {float:right;color:#069;padding:12px 4px 0 0}
+      .globalCopyright {width:660px;height:32px;border-top:1px #c1e1f6 solid;background:url(img/copyright.gif) right center no-repeat;color:#999;line-height:32px;}
+      .globalBody {border:1px #c1e1f6 solid;border-left:0;border-right:0;padding:1px 0;width:660px;}
+      .bottomBody {background:#c1e1f6;width:640px;padding:4px 10px;margin:2px 0;color:#fff;}
+      .globalBody .body {border:1px #fff solid;border-left:0;border-right:0;width:660px;background:#f8fffe}
+      .globalBody .body .title {width:640px;background:#daf0fe;padding:4px 10px;}
+      .globalBody .body .title .r{ float:right}
+      .globalBody .body .other {width:620px;padding:0 20px 10px 20px;}
+      .globalBody .body .list {width:600px;padding:20px 30px 10px 30px;line-height:24px;}
+      .globalBody .body .list p {padding:0 0 12px 0}
+    </style>
+  </head>
+  <body>
+    <div class="globalBody">
+        <div class="body">
+            <div class="list">
+                <p>
+                    <b>尊敬的用户，您好：</b>
+                </p>
+                <p>我们收到了您有关重设密码的请求。如果是您提交的请求，请遵照下面的指示操作。单击下面的链接通过我们的安全服务器重新设置您的密码：
+                    Message
+					<b>ExpiredHour</b>
+                    <br />
+                </p>
+                <p>
+                    <br />
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="globalCopyright">
+        中国电信集团&copy;2000-2009</div>
+</body>
+</html>
+

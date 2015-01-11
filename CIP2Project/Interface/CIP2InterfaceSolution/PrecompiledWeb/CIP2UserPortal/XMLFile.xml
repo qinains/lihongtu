@@ -1,0 +1,73 @@
+<CAPRoot>
+  <SessionHeader>
+    <ServiceCode>CAP02001</ServiceCode>
+    <Version>mbossUacVersion1</Version>
+    <ActionCode>0</ActionCode>
+    <TransactionID>35000201209042872393865</TransactionID>
+    <SrcSysID>35000</SrcSysID>
+    <DigitalSign/>
+    <DstSysID>22</DstSysID>
+    <ReqTime>20120904084215</ReqTime>
+    <Request>
+      <ReqType/>
+      <ReqCode/>
+      <ReqDesc/>
+    </Request>
+  </SessionHeader>
+  <SessionBody>
+    <AssertionQueryReq>
+      <Ticket>-1</Ticket>
+    </AssertionQueryReq>
+  </SessionBody>
+</CAPRoot>
+
+
+<CAPRoot>
+  <SessionHeader>
+    <ServiceCode>CAP01003</ServiceCode>
+    <Version>mbossUacVersion1</Version>
+    <ActionCode>0</ActionCode>
+    <TransactionID>35000201209053699402435</TransactionID>
+    <SrcSysID>35000</SrcSysID>
+    <DigitalSign>302C02146650310C71D29E03B1B1A6BD4156B634BED6F6FE02141A4017D8295E32983531C3C9A84579C5994FDBA6</DigitalSign>
+    <DstSysID>22</DstSysID>
+    <ReqTime>20120905143014</ReqTime>
+    <Request>
+      <ReqType/>
+      <ReqCode/>
+      <ReqDesc/>
+    </Request>
+  </SessionHeader>
+  <SessionBody>
+    <SPSSOAuthReq>
+      <RedirectURL>http://Customer.besttone.com.cn/UserPortal/SSO/SelectAssertion.aspx</RedirectURL>
+      <AcceptAccountTypeList>
+        <AcceptAccountType>0000000</AcceptAccountType>
+      </AcceptAccountTypeList>
+    </SPSSOAuthReq>
+  </SessionBody>
+</CAPRoot>
+
+
+<CAPRoot>
+  <SessionHeader>
+    <ServiceCode>CAP02001</ServiceCode>
+    <Version>mbossUacVersion1</Version>
+    <ActionCode>0</ActionCode>
+    <TransactionID>35000201209053699402435</TransactionID>
+    <SrcSysID>35000</SrcSysID>
+    <DigitalSign/>
+    <DstSysID>22</DstSysID>
+    <ReqTime>20120905143015</ReqTime>
+    <Request>
+      <ReqType/>
+      <ReqCode/>
+      <ReqDesc/>
+    </Request>
+  </SessionHeader>
+  <SessionBody>
+    <AssertionQueryReq>
+      <Ticket>22-ST-24461-ZGytqAfXaLRhhIS1mFZg-hntelecom</Ticket>
+    </AssertionQueryReq>
+  </SessionBody>
+</CAPRoot>

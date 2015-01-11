@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BesttoneAccount>
+	<ConstUrls>
+		<!--【网关，有密支付】有密支付http请求页面-->
+		<Url ID="CardPayHttpsPage">http://cardpay.bestpay.com.cn/yypay.do</Url>
+		<!--【网关，网银支付】网银支付跳转页面-->
+		<Url ID="BankPayWebPage">http://webpay.bestpay.com.cn/payWebDirect.do</Url>
+		<!--【网关，网银支付】网银支付前台返回地址-->
+		<Url ID="BesttoneMerchantURL">http://customer.besttone.com.cn/UserPortal/UserAccount/BankRechargeSuccess.aspx</Url>
+		<!--【网关，网银支付】网银支付后台返回地址-->
+		<Url ID="BesttoneBackMerchantURL">http://customer.besttone.com.cn/UserPortal/UserAccount//BankRechargeBack.aspx</Url>
+	</ConstUrls>
+	<ConstParams>
+		<!--【融合支付】机构种类（1位）+机构类型（2位）+地区代码（4位）+区县（2）+000000-->
+		<Parameter ID="APANAGE">001310000010000</Parameter>
+		<!--【融合支付】受理机构代码-->
+		<Parameter ID="ACCEPTORGCODE">001310000010000</Parameter>
+		<!--【融合支付】出单机构-->
+		<Parameter ID="SUPPLYORGCODE">111310073720000</Parameter>
+		<Parameter ID="AREACODE">888800</Parameter>
+		<!--【融合支付】受理地区代码-->
+		<Parameter ID="ACCEPTAREACODE">888800</Parameter>
+		<Parameter ID="CITYCODE">888801</Parameter>
+		<!--【融合支付】受理城市代码-->
+		<Parameter ID="ACCEPTCITYCODE">888801</Parameter>
+		<!--【融合支付】密码修改密钥-->
+		<Parameter ID="SymmetryPassWord">3731393439313631</Parameter>
+
+
+		<!--【网关，有密支付】商户代码-->
+		<Parameter ID="COMMCODE">3100888915</Parameter>
+		<!--【网关，有密支付】商户密码-->
+		<Parameter ID="COMMPWD">656135</Parameter>
+		<!--【网关，有密支付】3DES加密key-->
+		<Parameter ID="COMMKEY">64B800B582F376AA</Parameter>
+		<!--【网关，有密支付】3DES加密偏移向量-->
+		<Parameter ID="COMMIV">50,51,52,53,54,55,56,57</Parameter>
+		<!--【网关，网银支付】支付平台分配的商户号-->
+		<Parameter ID="MERCHANTID">3100888914</Parameter>
+		<Parameter ID="MERCHANTID_KEY">FEC86F0C0B9A2A44</Parameter>
+		<Parameter ID="SUBMERCHANTID"></Parameter>
+
+		<!--个人账户单笔充值上限-->
+    		<Parameter ID="AccountRechargeLimitedOne">1000000</Parameter>
+		<!--个人账户单日充值上限-->
+		<Parameter ID="AccountRechargeLimitedDay">5000000</Parameter>
+		<!--个人账户余额上限-->
+		<Parameter ID="AccountBalanceLimited">10000000</Parameter>
+	</ConstParams>
+
+</BesttoneAccount>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="gb2312"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://CRMInterface.Customer.Besttone.cn" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://CRMInterface.Customer.Besttone.cn" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://CRMInterface.Customer.Besttone.cn">
+      <s:element name="CRMUserAuth">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="SystemsID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AuthenName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AuthenType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="CustType" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="AreaCode" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ExtendField" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CRMUserAuthResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CRMUserAuthResult" type="tns:CRMUserAuthResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="CRMUserAuthResult">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="Result" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ErrorDescription" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ExtendField" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="CRMUserAuthSoapIn">
+    <wsdl:part name="parameters" element="tns:CRMUserAuth" />
+  </wsdl:message>
+  <wsdl:message name="CRMUserAuthSoapOut">
+    <wsdl:part name="parameters" element="tns:CRMUserAuthResponse" />
+  </wsdl:message>
+  <wsdl:portType name="CRMForBTUCenterSoap">
+    <wsdl:operation name="CRMUserAuth">
+      <wsdl:input message="tns:CRMUserAuthSoapIn" />
+      <wsdl:output message="tns:CRMUserAuthSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CRMForBTUCenterSoap" type="tns:CRMForBTUCenterSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CRMUserAuth">
+      <soap:operation soapAction="http://CRMInterface.Customer.Besttone.cn/CRMUserAuth" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CRMForBTUCenterSoap12" type="tns:CRMForBTUCenterSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CRMUserAuth">
+      <soap12:operation soapAction="http://CRMInterface.Customer.Besttone.cn/CRMUserAuth" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CRMForBTUCenter">
+    <wsdl:port name="CRMForBTUCenterSoap" binding="tns:CRMForBTUCenterSoap">
+      <soap:address location="http://localhost/BestTone2UCenterInterface/CRMForBTUCenter/CRMForBTUCenter.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CRMForBTUCenterSoap12" binding="tns:CRMForBTUCenterSoap12">
+      <soap12:address location="http://localhost/BestTone2UCenterInterface/CRMForBTUCenter/CRMForBTUCenter.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

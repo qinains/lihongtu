@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{min-width:1200px; background:#FFF;}
+body,input,select{font-size:12px;font-family: Arial,Helvetica,sans-serif,"宋体";line-height:160%;color:#333}
+body,div,ul,li,p,span,h1,h2,h3,h4,h5,h6,img,form,table,tr,td,dl,dt,dd,input,select,a,button,label{margin:0;padding:0}
+button,img{border:0}
+div{overflow:hidden;_zoom:1}
+ul,li,ol{list-style:none;list-style-type:none}
+a{text-decoration:none;color:#333}
+a:hover{text-decoration:underline;color:#ff5300;}
+html{overflow-y:scoll}
+.left{ float:left}
+.right{ float:right}

@@ -1,0 +1,138 @@
+﻿@charset "utf-8";
+@import url(reset.css);
+/*by Giau*/
+body{color:#000;font:normal 12px/1.5em arial,simsun,sans-serif}
+a,a:visited{color:#000;text-decoration:none}
+a:hover{text-decoration:underline}
+a:active{text-decoration:none}
+img{}
+button{cursor:pointer}
+.btn button{border:none}
+select{height:26px;padding:2px;color:#666;font-size:13px;vertical-align:top}
+option{padding:4px 2px;color:#999;line-height:17px}
+.texti{height:17px;padding:4px 2px;border:1px solid #a7a6aa;color:#666;font-size:13px;line-height:17px;vertical-align:top}
+.identi_code{height:17px;padding:4px 2px;border:1px solid #a7a6aa;color:#666;font-size:13px;line-height:17px;vertical-align:top; width:50px;}
+textarea{padding:4px 2px;border:1px solid #a7a6aa;color:#666;font-size:13px;line-height:17px;vertical-align:top;font-family:arial,simsun,sans-serif}
+.more{line-height:18px!important;font-family:simsun}
+.more a,.more a:visited{color:#666}
+.remark{color:red}
+.hint{color:#737373}
+.detail,.detail a,.detail a:visited{color:#c00;font-family:simsun}
+.bro{padding-right:20px;border-right:1px solid #eee}
+
+/*hack*/
+.clfx:after{display:block;clear:both;visibility:hidden;height:0;font-size:0px;line-height:0px;content:"."}
+.clfx{zoom:1;_height:1%}
+
+/*button*/
+.btn,.btn span{display:inline-block;display:-moz-inline-stack;zoom:1;*display:inline;cursor:pointer}
+.btnA{background:url(../images/repeat.gif) 0 -375px repeat-x;line-height:27px}
+.btnA span{background:url(../images/repeat.gif) 0 -402px no-repeat}
+.btnA button{height:27px;background:url(../images/repeat.gif) 100% -429px no-repeat;font-size:14px}
+
+.btn_OK{height:27px;background:url(../images/repeat.gif) 100% -429px no-repeat;font-size:14px}
+
+/*slick*/
+
+/*头部*/
+.btHead{width:980px;margin:0 auto;padding-top:5px}
+/**头A**/
+.bthda{overflow:hidden;height:21px;background:#f5f5ec;line-height:15px}
+.bthda .btout{background:url(../images/repeat.gif) no-repeat}
+.bthda .btin{height:15px;padding:3px 10px;background:url(../images/repeat.gif) 100% -21px no-repeat}
+.bthda a{padding-left:2px;padding-right:2px}
+.hdaDate,.hdaWeather,.topNav{float:left;color:#039}
+.hdaDate{padding-right:10px}
+.hdaCity{float:left;padding-left:10px;padding-right:5px;border-left:1px solid #039}
+.topNav a{float:left;margin-right:8px}
+.hdaHi,.hdaNav{float:right}
+.hdaHi{margin-right:20px;font-family:simsun}
+.hdaNav,.hdaNav a,.hdaNav a:visited,.topNav a,.topNav a:visited{color:#039}
+/**头B**/
+.bthdb{margin-bottom:10px}
+.bthdb img{display:block}
+.tcLogo{display:inline;float:left;height:47px;margin:17px 15px 7px 3px;padding-top:4px}
+.tceLogo{display:inline;float:left;height:60px;margin:15px 0 5px 10px}
+.btLogo{display:inline;float:left;height:47px;margin:17px 20px 7px 3px}
+.sbLogo{float:right;height:51px;margin:15px 0 5px 50px}
+.bthdb h1.fu{float:right;margin:20px 3px 10px 10px}
+.tcLogo a,.tceLogo a,.btLogo a,.sbLogo a{display:block}
+.ctLocal{float:left;margin-top:20px;line-height:24px}
+.ctLocal .ctCurrent{color:#000;font-size:20px;font-family:simhei}
+.ctLocal .ctChanger{cursor:default;margin-top:-4px;color:#039;text-decoration:underline}
+/***生活导航***/
+.wMenu{float:right;font-family:simsun;letter-spacing:2px}
+.btLife{float:left;*width:360px;margin-top:14px;padding-right:12px;border-right:1px solid #ececec}
+.btLife dl{height:18px}
+.btLife dt{float:left;margin-right:10px;font-weight:700}
+.btLife dd{float:left}
+.btLife dd span{float:left;padding:0 12px;background:url(../images/repeat.gif) 100% -264px no-repeat}
+.btLife dd .fu{padding-right:0;background:none}
+.btLife dd a{float:left;}
+.bestone{float:left;width:150px;margin-top:14px}
+.bestone span{position:relative;float:left;padding:0 12px;background:url(../images/repeat.gif) 100% -264px no-repeat}
+.bestone .fu{padding-right:0;background:none}
+.bestone .en{letter-spacing:0}
+.bestone a{float:left;}
+.bestone sup{overflow:hidden;position:absolute;top:0;right:0;width:24px;height:13px;margin-top:-4px;margin-right:-20px;background:url(../images/new.gif) no-repeat;text-indent:-9999em}
+/***banner***/
+.hdBanner{float:right;margin:15px 0 5px}
+.hdBanner a{display:block;background:#f5f5ec}
+/***搜索***/
+.hdSearch{float:right;margin:10px 0;width:650px}
+.searchTab{height:23px;border-bottom:3px solid #feeea8;line-height:23px}
+.searchTab span{cursor:pointer;float:left;margin-right:4px;padding:0 8px;color:#666;font-family:simsun}
+.searchTab .vazn{cursor:default;padding:0;background:#feeea8 url(../images/repeat.gif) 0 -218px no-repeat;color:#c00}
+.searchTab .vazn strong{display:block;padding:0 10px;background:url(../images/repeat.gif) 100% -241px no-repeat}
+.searchBox{height:27px;margin:8px 0 0 2px}
+.sbAt,.sbSo,.searchBox .btnA{float:left}
+.searchBox label{float:left;font-size:13px;line-height:27px}
+.searchBox .texti{float:left;margin:0 10px 0 8px}
+.sbAt .texti{width:126px}
+.sbSo .texti{width:226px}
+.searchBox button{width:70px}
+/***菜单&导航***/
+.hMenu{background:url(../images/repeat.gif) 0 -42px repeat-x;line-height:21px}
+.hMenu .btout{background:url(../images/repeat.gif) 0 -73px no-repeat}
+.hMenu .btin{height:31px;padding-left:15px;background:url(../images/repeat.gif) 100% -104px no-repeat}
+.hMenu span{position:relative;float:left;padding:5px 12px 5px 10px;background:url(../images/repeat.gif) 100% -135px no-repeat}
+.hMenu .fu{background:none}
+.hMenu a,.hMenu .vazn strong{float:left;height:21px;padding:0 5px;color:#fff;font-weight:700;font-size:14px}
+.hMenu a:visited{color:#fff}
+.hMenu .vazn{cursor:default;margin:5px -5px 0;padding:0;background:#fffdc8 url(../images/repeat.gif) 0 -166px no-repeat}
+.hMenu .vazn strong{height:26px;padding:0 18px;border:none;background:url(../images/repeat.gif) 100% -192px no-repeat;color:#c00;line-height:26px}
+.hMenu sup{overflow:hidden;position:absolute;top:0;right:2px;width:24px;height:13px;margin-top:-4px;background:url(../images/new.gif) no-repeat;text-indent:-9999em}
+.hMenu p{display:inline;float:right;margin:9px 10px 0 0}
+.btChannel{display:inline;float:left;margin-right:15px;margin-left:-15px;background:#fff url(../images/repeat.gif) 0 -282px repeat-x}
+.btChannel span{position:static;float:left;padding:0 0 0 5px;background-position:0 -313px}
+.btChannel span span{height:31px;padding-right:18px;background-position:100% -344px}
+.btChannel img{display:block}
+.hSubMenu{height:18px;padding:4px 10px 5px;background:#fffdc8}
+.hSubMenu a,.hSubMenu strong{float:left;margin-right:10px;padding:0 5px}
+.hSubMenu strong{font-weight:700}
+.btPath{height:18px;margin:10px 0;color:#666;font-family:simsun}
+.btPath a,.btPath a:visited{color:#666}
+.btPath span{float:left;padding:0 5px}
+.btPath strong{color:#c00}
+.btPath a,.btPath strong{float:left;padding:0 3px}
+
+/*底部*/
+.btFoot{width:980px;margin:10px auto 20px}
+.fLink{position:relative;_height:30px}
+.fLink dl{border:1px solid #ccc;background:#feeea8 url(../images/flink.gif) 10px 50% no-repeat}
+.fLink dt{display:none}
+.fLink dd{_height:18px;margin-left:100px;padding:5px 20px;background:#fff;font-size:14px}
+.fLink a{padding:0 7px;color:#666}
+.fLink a:visited{color:#666}
+.fLink em{position:absolute;z-index:100;overflow:hidden;display:block;width:4px;height:4px;background:url(../images/repeat.gif) no-repeat}
+.fLink .xtl{top:0;left:0;background-position:0 -456px}
+.fLink .xtr{top:0;right:0;background-position:100% -456px}
+.fLink .xbl{bottom:0;left:0;background-position:0 -459px}
+.fLink .xbr{bottom:0;right:0;background-position:100% -459px}
+.bottomNav{height:20px;margin-top:6px;line-height:20px}
+.bottomNav a{padding:0 5px}
+.btFoot p,.btFoot p a,.btFoot p a:visited{color:#666}
+.miibeian{margin-left:5px}
+.btCopy{display:inline;float:right;margin-right:5px}
+.nece{padding-left:30px;background:url(../images/icon.gif) 10px 0 no-repeat}
+span.nece a,span.nece a:visited{color:#039}

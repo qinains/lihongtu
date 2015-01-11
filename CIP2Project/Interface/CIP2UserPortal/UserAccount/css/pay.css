@@ -1,0 +1,162 @@
+@CHARSET "UTF-8";
+
+.successbox {
+	width: 850px;
+	height: 220px;
+	background-color: #fcfaef;
+	border: 1px solid #fccf94;
+	margin: 0 auto
+}
+
+.successbox_l {
+	float: left;
+	width: 300px;
+	height: 180px;
+	text-align: right;
+}
+
+.successbox_l .icon {
+	float: right;
+	margin-top: 50px;
+	width: 180px;
+	height: 140px;
+	display: block;
+	background: url(../images/shop_submintorder.gif)
+		0 -40px no-repeat
+}
+
+.successbox_r {
+	float: left;
+	width: 500px;
+	height: 140px;
+}
+
+.successbox_r .text {
+	font-size: 14px;
+	color: #f60;
+	font-weight: bold;
+	height: 60px;
+	margin-top: 40px;
+	text-align: left
+}
+
+.successbox_r  .btn {
+	display: block;
+	text-align: left
+}
+
+.btn_ljzf {
+	width: 206px;
+	height: 38px;
+	border: 0px;
+	background: url(../images/shop_submintorder.gif)
+		no-repeat;
+	cursor: pointer
+}
+
+.shoppingcart_nav h1.tit2 {
+	font-size: 0px;
+	background: url(../images/bg_cart_title2.gif) no-repeat 0px 0px;
+	overflow: hidden;
+	width: 960px;
+	color: #ffbf27;
+	line-height: 0;
+	height: 31px
+}
+
+.shoppingcart_nav h1.tit3 {
+	font-size: 0px;
+	background: url(../images/bg_cart_title2.gif) no-repeat 0px
+		-41px;
+	overflow: hidden;
+	width: 960px;
+	color: #ffbf27;
+	line-height: 0;
+	height: 31px
+}
+
+#goToPay {
+	height: 150px;
+}
+
+#goToPay .infoImg {
+	float: left;
+	width: 60px;
+	height: 48px;
+	text-align:right;
+}
+
+#goToPay .infoTip {
+	float: right;
+	width: 300px;
+	height:48px;
+	padding: 10px 15px 3px 10px;
+	line-height: 21px;
+	font-size: 14px;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+#goToPay .middle {
+	padding-top: 10px; text-align: center; padding-bottom: 10px; margin-top: 10px; margin-bottom: 10px; height: 30px;
+}
+
+#goToPay .middle .payButton {
+	border: 1px solid #999999;
+}
+
+#goToPay .middle .payButton:hover {
+	border: 1px solid #2C80D0;
+}
+
+#goToPay .bottom {
+	margin-left: -50px;
+}
+
+#goToPay .bottom a {
+	color: blue;
+}
+
+
+/***********************************/
+#goToRecharge {
+	height: 150px;
+}
+
+#goToRecharge .infoImg {
+	float: left;
+	width: 60px;
+	height: 48px;
+	text-align:right;
+}
+
+#goToRecharge .infoTip {
+	float: right;
+	width: 300px;
+	height:48px;
+	padding: 15px 15px 3px 10px;
+	line-height: 21px;
+	font-size: 14px;
+	text-align: left;
+	vertical-align: bottom;
+}
+
+#goToRecharge .middle {
+	padding-top: 10px; text-align: center; padding-bottom: 10px; margin-top: 10px; margin-bottom: 10px; height: 30px;
+}
+
+#goToRecharge .middle .payButton {
+	border: 1px solid #999999;
+}
+
+#goToRecharge .middle .payButton:hover {
+	border: 1px solid #2C80D0;
+}
+
+#goToRecharge .bottom {
+	margin-left: -50px;
+}
+
+#goToRecharge .bottom a {
+	color: blue;
+}

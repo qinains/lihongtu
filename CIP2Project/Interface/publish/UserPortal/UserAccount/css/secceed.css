@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.left{ float:left;}
+.right{ float:right;}
+.top{ text-align:center; height:43px; background:#ededed; line-height:43px; border-bottom:1px solid #d1d1d1; font-size:18px; color:#969696;}
+.top .back{ display:block; width:20px; background:url(../img2014/ba_back.gif) no-repeat; height:43px; float:left;}
+.top p{ padding:0 20px 0 0;}
+.wrap{ width:320px; margin:0 auto;}
+.wrap .dd .dd_num{ height:32px; border-bottom:1px solid #eee; line-height:32px;}
+.wrap .dd .dd_num em{ float:right; color:#ee3e3e; font-style:normal;}
+.wrap .dd .goods ul{ float:left;}
+.wrap .dd .goods li{ padding:11px 6px; float:left;}
+.wrap .dd .goods .more{ width:92px; float:right; background:url(../img2014/arrow_r1.png) no-repeat right center; padding:18px 0 11px 0; display:block; height:55px;}
+.wrap .dd .goods .more span{ float:left; display:block;}
+.wrap .dd .dd1{ background:#e2e2e2; height:42px; line-height:21px; padding:0 5px;}
+.wrap .dd .dd1 .right .bt{ margin:5px 0 0 0; display:block; float:left; padding:0 0 0 5px;}
+
+
+.info_b{ border-bottom:1px solid #ececec;}
+.info_b .info1{ width:320px; margin:5px auto;}
+.info_b .info1 .file{ float:left; width:64px; padding:0 0 0 5px;}
+.info_b .info1 .main{ float:left; width:251px;}

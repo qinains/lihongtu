@@ -1,0 +1,40 @@
+﻿.remark {
+    BORDER-BOTTOM: #f00 1px solid; 
+    BORDER-LEFT: #f00 1px solid; 
+    PADDING-BOTTOM: 4px; 
+    LINE-HEIGHT: 24px; 
+    PADDING-LEFT: 10px; 
+    WIDTH: auto; 
+    PADDING-RIGHT: 10px; 
+    BACKGROUND: #fffdee; 
+    COLOR: red; 
+    FONT-SIZE: 12px; 
+    OVERFLOW: hidden; 
+    BORDER-TOP: #f00 1px solid; 
+    FONT-WEIGHT: normal; 
+    BORDER-RIGHT: #f00 1px solid; 
+    PADDING-TOP: 2px;
+    height:17px;
+    display:none;
+}
+
+.login_cont06 {
+    BORDER-BOTTOM: #edd28b 1px solid; 
+    TEXT-ALIGN: center; 
+    BORDER-LEFT: #edd28b 1px solid; 
+    PADDING-BOTTOM: 30px; 
+    LINE-HEIGHT: 28px; 
+    MARGIN: 50px; 
+    PADDING-LEFT: 30px; 
+    PADDING-RIGHT: 30px; 
+    BACKGROUND: #fffdee; 
+    COLOR: #000; 
+    FONT-SIZE: 14px; 
+    BORDER-TOP: #edd28b 1px solid; 
+    FONT-WEIGHT: bold; 
+    BORDER-RIGHT: #edd28b 1px solid; 
+    PADDING-TOP: 30px
+}
+
+.buttonSpan{display:block;background:url(../../images/repeat.gif) 0 -493px no-repeat}
+.buttonSpan button{width:120px;font-weight:700}

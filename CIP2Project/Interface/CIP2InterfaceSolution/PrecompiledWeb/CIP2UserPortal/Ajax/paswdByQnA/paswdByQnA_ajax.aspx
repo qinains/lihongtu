@@ -1,0 +1,1 @@
+﻿<%@ page language="C#" autoeventwireup="true" inherits="Ajax_paswdByQnA_paswdByQnA_ajax, App_Web_p10fpx2u" enableEventValidation="false" %>

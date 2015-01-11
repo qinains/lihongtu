@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="findPwd_ajax.aspx.cs" Inherits="Ajax_Email_findPwd_ajax" %>

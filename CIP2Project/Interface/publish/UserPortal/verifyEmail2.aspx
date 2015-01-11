@@ -1,0 +1,15 @@
+﻿<%@ page language="C#" masterpagefile="~/MasterPage.master" autoeventwireup="true" inherits="verifyEmail2, App_Web_verifyemail2.aspx.cdcab7d2" title="Untitled Page" enableEventValidation="false" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
+<div class="cb">
+			<div class="notice true">
+				<table><tr>
+					<th><img src="images/true.gif" width="57" height="45" /></th>
+					<td>
+						<strong>你好！你的认证邮箱已经被激活！</strong><br />你的认证的邮箱为：xxxxxxxx@xxxxx.com
+					</td>
+				</tr></table>
+			</div>
+		</div>
+
+</asp:Content>
+

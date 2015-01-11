@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AccountInfoCheckResult xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+                        xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+                        xmlns="http://udb.chinatelecom.com">
+  <ResultCode>999</ResultCode>
+  <UserType>0</UserType>
+  <ReturnUserGroupList>
+    <ReturnUserGroup>
+      <UserID />
+      <UserIDType />
+    </ReturnUserGroup>
+  </ReturnUserGroupList>
+  <UserID />
+  <UserIDType xsi:nil="true" />
+  <PUserID />
+  <Alias />
+  <BindingAccessNo />
+  <ThirdSsUserID />
+  <UserIDStatus />
+  <UserIDSsStatus />
+  <UserPayType />
+  <PrePaySystemNo />
+  <Description>无此Ticket记录或已失效</Description>
+</AccountInfoCheckResult>
